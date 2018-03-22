@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310107",
+      "properties": {
+        "name": "普陀区",
+        "cp": [
+          121.402499,
+          31.251701
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@DB@@@@@B@@@B@@@@BB@@@@B@@@@@B@B@@@BA@@@@@A@@@@@@@@B@@@BB@@@@B@@@@@A@@@@@@BB@@@@@@@@@@@@@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B@@B@@@@@@@@@@BBA@@@BB@@@@@@@@@@@B@@@@B@@@@@@@@B@@@@@@@@B@@@BB@@@A@@@@@@B@@@@A@@@@@@B@@@@@@A@@@@@@@@@@@@B@@@@A@@@@B@@@@@@@@@@B@@@B@@B@@@@@DA@@@@@@@BB@@@@@@B@@@@@@@@@@@@@BB@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@B@@@@@@@@B@@@@@@@@B@B@@@@@BBB@B@@BB@@@@@@@BBBCBB@A@@B@@A@@@@@@@A@@@A@A@@@AA@A@@K@E@@D@@@@@@AB@AA@@B@@@@AAA@@B@@ABCDBB@FB@@@B@@@@@@@@@@@@@B@B@@@F@@@@@@@B@@B@@@BA@BBMBCCADA@EB@B@@@@C@@ACBKBAECBEBBDEBABBB@B@BA@A@@@@BAB@@@B@@@BAB@BGA@BA@A@@BABB@@@@B@@@@@@BBDBB@D@BB@@@@@BABD@@B@@@@B@@@B@@@B@@AB@@@BBBA@@@@B@@D@B@BBB@AJ@@AD@@BB@AB@B@@@B@@@@@@B@@@@@BB@@B@B@@@@@DC@@@@BBBB@@B@BBB@@@DB@@B@@@B@AE@@ACCG@@AAJA@AFAA@HABBF@@A@@@@B@@@@@@@@BD@@@F@@@@AD@@BB@@BA@@BD@@BB@BBD@@@B@@BD@DAF@A@@A@A@@@A@@A@JA@A@@DA@@@@AA@@@@@B@@@ADAAAHB@@B@@AA@@ACECGB@@@BAB@@@@AB@B@@BD@@@@@@AAA@@@A@@@@@@@@@A@@B@@@@@D@@@B@@@B@@A@C@@@@B@@@B@@@B@@@BA@@B@@@@@@A@A@A@@@@@@@@@@HABB@@BB@A@B@@@@@B@@A@@@@@@@@BB@B@@AB@@@@@@B@@@@@@@@@@@@@@@@B@@B@@@@B@@B@@B@@B@@@@B@@B@@B@@BB@@BB@@@@@BA@A@@BABAB@FCD@DAB@BA@@FGFEBC@@BA@A@AA@@@@A@@@@@A@@@@@@@AD@@A@AA@@@@A@A@AAA@@AA@@@A@@@@BA@A@@@@@@@@@@A@@@@@AA@@@@@@@@@@A@@@@@@@A@@@@@AA@@@@A@@@@A@@@@@@@@@@@@A@@@@@@@@@@@A@@A@@@@A@@AA@@@@@@@@@@@@@@@@@@@A@@@AA@@@@@@@@@@@@@@A@@A@@@@@@@@A@@@@@@@@@@@AA@@@@@@@@@@A@@@@@@@@@A@@@@@@@@@A@@@@@@@A@@@@@@@AAAAAA@A@@@@AA@A@@@@@@A@@@@@@@@@@@@@@@@@@@@@@@A@@@@@@@@@@@@@A@@@AAA@ACAA@@@@A@@BED@@AB@@AA@@@@BCBA@@AA@@@@AAC@A@AAA@A@A@AAA@A@AAA@CB@@AA@@@@@A@A@@A@@@A@A@A@K@C@AB@@GB@@E@A@A@C@@@@@@@@@A@A@A@@@ABABAB@@C@A@AB@@@@@B@BA@@@A@@@C@A@@@A@@BABADEHCF"
+        ],
+        "encodeOffsets": [
+          [
+            124267,
+            31987
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

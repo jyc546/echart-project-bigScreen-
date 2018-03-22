@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "500103",
+      "properties": {
+        "name": "渝中区",
+        "cp": [
+          106.54888,
+          29.553742
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@B@@ABC@A@A@C@A@A@A@A@CAC@AACAAACAACCCAA@AAE@CAA@E@AAE@CAC@CAC@E@C@A@C@G@C@A@C@CAA@AAA@AA@AAAAAACAC@A@CG@GBC@@@AB@BAD@@@BA@@@ACAABA@AA@A@C@I@ABA@A@AA@A@@CACBABAD@BBF@@D@@@@@@@@B@@C@@@@@A@ABAB@BBB@BAD@BADA@ABE@@@@@OBC@AB@@@BD@LBHB@@B@@B@BABD@FBDBD@D@@@B@B@LCD@JCFAD@D@B@D@D@BBD@DDBBB@BB@BBB@BBB@BBB@BDBBBBBD@B@D@DBB@D@B@D@DAB@B@DABABAB@BAF@D@D@D@DBD@BBBBDB@BB@BBBBBB"
+        ],
+        "encodeOffsets": [
+          [
+            109147,
+            30281
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

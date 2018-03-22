@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+</head>
+<link rel="stylesheet" href="../styles/common.css">
+<link rel="stylesheet" href="../styles/warrantyService.css">
+<body>
+<div id="root">
+    <header>
+        <div class="date">
+            <div class="currentTime"></div>
+            <div class="cDate">
+                <div class="currentDate"></div>
+                <div class="currentWeek"></div>
+            </div>
+        </div>
+        <div class="site">
+            <span class="iconfont">&#xe70c;</span>
+            <span class="areaName">中国</span>
+            <div class="selectDom">
+                <div class="zProvinceItem" item-level="1">
+                    <div class="zprovinceItem-head">
+                        <input type="text" id="provinceInputValue" class="currentValue" readonly="" value="请选择">
+                    </div>
+                    <div class="zprovinceItem-main">
+                        <div class="provinceContainer">
+                            <div class="provinceTips">全部</div>
+                            <ul class="provincelist">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="zcityItem" item-level="2">
+                    <div class="zcityItem-head">
+                        <input type="text" id="cityInputValue" class="currentValue" readonly="" value="请选择">
+                    </div>
+                    <div class="zcityItem-main">
+                        <div class="cityContainer">
+                            <div class="cityTips">全部</div>
+                            <ul class="citylist">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="left">
+            <!-- 近一年装备故障分析 -->
+            <div class=" faultAnalysis">
+                <p class="module">
+                    <span class="title">近一年装备故障分析</span>
+                </p>
+                <div id="faultAnalysisChart"></div>
+            </div>
+            <!-- 厂商装备故障排行 -->
+            <div class="faultRank">
+                <p class="module">
+                    <span class="title">厂商装备故障排行</span>
+                </p>
+                <ul class="filter-type fr" style="margin-top: -47px;margin-right: 12px;">
+                    <li class="active" data-type="supplier">供货商</li>
+                    <li class="" data-type="manufacturer">生厂商</li>
+                </ul>
+                <div id="faultRankChart"></div>
+            </div>
+            <!-- 各地点装备故障情况 -->
+            <div class="faultCondition">
+                <p class="module">
+                    <span class="title">各地点装备故障情况</span>
+                </p>
+                <table class="faultConditionTable">
+                    <thead>
+                    <th>序列</th>
+                    <th class="company">地点名称</th>
+                    <th>故障数量</th>
+                    <th>故障率</th>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="middle">
+            <!-- 中国地图 -->
+            <div class="map">
+                <div id="mapChart"></div>
+                <div class="statistics">
+
+                </div>
+            </div>
+            <!-- 各行政区故障情况分析 -->
+            <div class="situationAnalysis">
+                <p class="module">
+                    <span class="title">各行政区故障情况分析</span>
+                </p>
+                <div id="situationAnalysisChart"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="pieRate">
+                <div id="pieRateChart"></div>
+            </div>
+            <!-- 故障类型分布 -->
+            <div class="distributeByStatus">
+                <p class="module">
+                    <span class="title">故障类型分布</span>
+                </p>
+                <div id="distributeByStatusChart"></div>
+            </div>
+            <!-- 保修服务分布 -->
+            <div class="distributeByServer">
+                <p class="module">
+                    <span class="title">保修服务分布</span>
+                </p>
+                <div id="distributeByServerChart"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../libs/jquery-2.1.0.js"></script>
+<script src="../libs/echarts.min.js"></script>
+<script src="../libs/china.js"></script>
+<script src="../js/areaMap.js"></script>
+<script src="../libs/utils.js"></script>
+<script src="../js/warrantService.js"></script>
+</html>

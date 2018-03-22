@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+</head>
+<link rel="stylesheet" href="../styles/common.css">
+<link rel="stylesheet" href="../styles/equipServer.css">
+
+<body>
+    <div id="root">
+        <header>
+            <div class="date">
+                <div class="currentTime"></div>
+                <div class="cDate">
+                    <div class="currentDate"></div>
+                    <div class="currentWeek"></div>
+                </div>
+            </div>
+            <div class="site">
+                <span class="iconfont">&#xe70c;</span>
+                <span class="city">中国</span>
+            </div>
+        </header>
+        <div class="main">
+            <div class="left">
+                <!-- 安装备类型分布 -->
+                <div class="distributeByType">
+                    <p class="module">
+                        <span class="iconfont">&#xe73e;</span>
+                        <span class="title">按装备类型分布</span>
+                    </p>
+                    <div id="distributeByTypeChart"></div>
+                    <!-- <div class="total">125876</div> -->
+                </div>
+                <!-- 近一年故障分析 -->
+                <div class="faultAnalysis">
+                    <p class="module">
+                        <span class="iconfont">&#xe73e;</span>
+                        <span class="title">近一年故障分析</span>
+                    </p>
+                    <div id="faultAnalysisChart"></div>
+                </div>
+                <!-- 各地点装备故障情况 -->
+                <div class="faultCondition">
+                    <p class="module">
+                        <span class="iconfont">&#xe73e;</span>
+                        <span class="title">各地点装备故障情况</span>
+                    </p>
+                    <table class="faultConditionTable">
+                        <tr>
+                            <th>序列</th>
+                            <th class="company">公司</th>
+                            <th>故障数量</th>
+                            <th>故障率</th>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>阔地小学</td>
+                            <td>38520</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>园区实验小学</td>
+                            <td>38520</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>都江堰十元国际双语</td>
+                            <td>38520</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>阔地小学</td>
+                            <td>38520</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td>阔地小学</td>
+                            <td>38520</td>
+                            <td>90%</td>
+                        </tr>
+                        <tr>
+                            <td>06</td>
+                            <td>阔地小学</td>
+                            <td>38520</td>
+                            <td>90%</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="middle">
+                <!-- 中国地图 -->
+                <div class="map">
+                    <div id="mapChart"></div>
+                    <div class="statistics">
+                        <div>
+                            <p class="count">2214</p>
+                            <p class="type">故障数</p>
+                        </div>
+                        <div>
+                            <p class="count">349</p>
+                            <p class="type">维修次数</p>
+                        </div>
+                        <div>
+                            <p class="count">75</p>
+                            <p class="type">平均报修响应时间</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 各行政区故障情况分析 -->
+                <div class="situationAnalysis">
+                    <p class="module">
+                        <span class="iconfont">&#xe73e;</span>
+                        <span class="title">各行政区故障情况分析</span>
+                    </p>
+                    <div id="situationAnalysisChart"></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="rate">
+                    <div>
+                        <p>故障率</p>
+                        <div></div>
+                    </div>
+                    <div>
+                        <p>维修率</p>
+                    </div>
+                    <div>
+                        <p>淘汰率</p>
+                    </div>
+                </div>
+                <!-- 故障状态分布 -->
+                <div class="distributeByStatus">
+                    <p class="module">
+                        <span class="iconfont">&#xe73e;</span>
+                        <span class="title">故障状态分布</span>
+                    </p>
+                    <div id="distributeByStatusChart"></div>
+                </div>
+                <!-- 保修服务分布 -->
+                <div class="distributeByServer">
+                    <p class="module">
+                        <span class="iconfont">&#xe73e;</span>
+                        <span class="title">保修服务分布</span>
+                    </p>
+                    <div id="distributeByServerChart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../libs/jquery-2.1.0.js"></script>
+<script src="../libs/echarts.min.js"></script>
+<script src="../libs/china.js"></script>
+<script src="../libs/utils.js"></script>
+<script src="../js/equipServer.js"></script>
+
+</html>

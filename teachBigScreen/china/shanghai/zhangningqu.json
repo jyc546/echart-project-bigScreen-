@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310105",
+      "properties": {
+        "name": "长宁区",
+        "cp": [
+          121.3922,
+          31.208123
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B@A@@@@A@@@@@@@@@A@@@@@@@@A@@@@A@@@@A@@@@@@@@@A@@@@@@@A@@@@@@A@@BA@A@@@@@@@AB@@A@@@A@@@@@@BA@@@@@A@@@@A@AAA@@AA@@@A@@@AA@@@@@@A@@@@@AAA@@@A@AA@@A@@@@@@@AAA@@@@@@@@@@@A@@A@@@@@@@@@@AA@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@A@BA@A@A@@@@@AA@@@@AA@@@A@E@@B@B@@@AC@@AA@A@@@G@E@CBG@A@G@C@A@A@@@A@@@@@@@EAA@A@@@@@A@C@@@@@AAA@A@A@MCECE@AA@@A@C@A@A@@@CB@A@@@@@@@A@A@@A@@@@@@@AAEA@DA@A@EAEAEA@C@@@@@@@@@@A@@@@@@@@@@@@BA@A@@B@@A@@@MTFBDBDB@BAB@@@B@@@@BBB@AT@B@B@D@DD@@@@BB@@@@B@@@@A@@AA@@@@@@B@@@@@DB@@BB@@@@@@@B@@B@DBFB@B@@@@@CBA@@@@@@@A@@@@@A@BB@@@@B@@BA@B@@BB@@@@@BBB@@@@@@BABB@CHA@@DA@@@A@@@A@A@@@BBABB@BDB@B@BBBAB@@B@@@B@@ADD@@AA@@ADA@B@@@DB@@@B@@@BA@@@AA@@CDAB@B@BA@ADEFGBCBA@AB@@@B@D@@@B@@@B@@A@A@@@@BAB@D@@@BABABA@@B@B@B@@@@@@@@@D@B@B@F@@@HA@@BAD@L@B@B@B@@@B@@@@B@B@@@@BB@@DAB@BBB@B@BBB@B@B@BBB@D@BB@@@@BB@@ABAD@@@@BB@@BA@@FC@AB@@@@@BBBDB@BB@@B@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@@@@@@@B@@@@@BE@@@A@A@@A@B@BA@@@@@@@@@@@B@@@@B@@@@@@@@@@@@@@@@@@@B@@@@@@@@@B@@@@@@@@B@@@@@@B@@@@@B@@B@@@@@@@@@@B@@A@@@@@@@@@@@@@A@@@@@@@@@@BA@@@@@@@@@A@@@@@A@@@@@A@@@@BA@@@@@@@@@@@A@@@@@@@@BA@@@@@@@@@@@@@A@@@@@AB@@@@A@@@@@@@@@@"
+        ],
+        "encodeOffsets": [
+          [
+            124354,
+            31964
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

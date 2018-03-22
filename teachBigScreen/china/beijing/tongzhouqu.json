@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "110112",
+      "properties": {
+        "name": "通州区",
+        "cp": [
+          116.728603,
+          39.822486
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@@BB@BB@@@D@D@@BBB@@@BBB@B@B@D@DD@B@DB@@@BD@@@@@FBB@@GB@D@B@@A@@D@@A@E@@@@@@F@DB@AD@BAB@@@@@B@@@@@D@AB@@B@BBB@BA@A@A@@B@BA@@B@B@@@@@ABB@DBD@@@B@BB@@B@B@@@@@@BDB@@B@B@@@@@BB@@@@@A@A@A@@BA@AB@BA@@DA@@BB@@@@B@@@BBBBBA@@BA@A@@@@B@B@B@@A@ABA@AB@@@@@B@@A@AB@@BB@D@BBB@@@B@B@@ABBD@@@@@@AB@@@@@D@D@B@@A@@@@@@@@B@@AB@@@@A@A@A@AB@B@@B@B@@@B@BAB@@AFDB@AHBBCBBB@B@B@BBB@@BB@DBB@@@@BB@@@@BB@@@@D@@B@@B@@@@@B@@BB@@BA@@@@BDB@@@@@BAB@@@BA@@B@B@BA@@B@@@@@@CBA@A@@B@@@D@@B@BABBAB@B@DA@B@@@BBB@@@@@@B@D@@A@@@@B@BAD@@@@@@@@B@B@@@@@BB@B@@BB@B@B@@DB@D@F@@A@@@@F@@@@CBB@E@AF@@A@AB@@@@@@@@@B@@@@@BABEB@@@D@@@@@@@@@B@@@D@@@@@D@D@@@B@@@B@@@B@@@B@DAFAAAACBCBABABCDC@K@C@CAA@AIICCAEAC@GCEAACACAACAC@C@A@C@ABADAFELCJAFCHADC@G@C@GBC@A@AAA@I@I@G@A@A@E@EAABABE@ABG@I@KBCBCDCJE@@@@BAB@BAB@B@BABAB@B@D@@@@@@B@B@@@B@@@B@@@B@B@B@@@@B@B@B@B@@@@@@@@@@B@B@@@B@@@B@BB@@@B@B@B@@@@A@@@A@@BA@@@C@@@A@A@@@A@A@@@@@@B@@@B@B@@@@ABA@@@@@AFBH@BAFA@ABABCFGHIB@@@B@@BB@@@JIBA@@@@@@@@@@DA@@B@@@@@@@B@@@B@@@B@B@@@B@@@@@@@@@@A@@@@@A@@B@@@@@@A@@@A@@B@@@@A@@B@@A@@@A@@@@@@@@@@BA@@@@@A@@@@@ABAD@D@BAB@D@@A@@@@@@@A@@@@@A@@@@@@@@B@@@BA@@@@B@@@@@@@B@@@@@BA@@B@@@@@@@@@@@B@@@@@@@B@@@@@@@@B@@@@@@@@B@@@@@@@B@@@@@B@@@@@B@@A@@B@@@@@@@@B@@@@@B@@@BD@F@DAFCHGBEDAFCDAHAB@DBBB@DCF@BCBADAD@D@D@@BB@@D@B@B@@BB@@@B@@@@@@@@B@@@@B@@@BB@AFAHCBABCDCBADEDEBG@E@CBC@CBC@C@A@AAC@A@ABABADAFCHE@AD@BAB@@C@@@@C@A@@@@@@@@@E@@@@@@@@@@@C@@@@@@ABEBAA@@@@@@A@@@@B@@@@ABAB@@@B@BAD@HAD@@@B@@@B@@@@@BAB@@A@@BA@A@A@@@AABA@A@CAA@@@@A@@@@BA@A@A@@@AB@@A@A@@AA@@C@A@@@@@@BA@C@ABEDI@E@M@EACCEE@@BA@ABABADE@@A@AAA@CA@A@@A@@@@@A@@AA@@@B@@@@@AA@@B@@@@@BA@@@@@@AAA@@@@@@A@@@@@@@@CBA@@@CF@B@@@@@BCCEACA@@@ABE@@A@CA@@@@@AB@BC@@JBB@@@@C@A@@@@@@@@@A@A@@@@@@B@B@@E@@@@B@@@@@@@@A@@B@@@@@BA@@BA@@CABA@B@@@AB@BCA@@@CAA@@@@@@@@@@EB@@@B@@@@@@@@C@@@@H@@C@A@@@C@@IB@@AAA@@@A@A@A@@@AAA@A@@@A@AABAA@C@@A@A@@C@@@A@A@A@@AA@@@@@@@A@@@A@I@@@@CA@@@A@AE@@@ACA@@@@DCD@BC@@A@@@@ABA@A@AAE@A@@B@@@@@@@@ABE@@CA@@B@@@@AB@B@B@@@@@BA@@@@@@B@@@@A@A@@@@@@@@DC@@CA@@@@BABA@@GAAAA@@@DE@@B@@@@@@BA@DBB@@A@@@@B@B@HBF@BB@@@A@@D@@@BCBC@@FE@@A@@@@@AA@@A@@@@@A@@@@@A@@@@@@@@AB@@@@@@A@@@@@@@A@@@@@@@AB@@@@@@AA@@@@@A@@@A@@@AA@@@@@@@@@@@@A@@@A@@@A@@@AA@@@@A@@@A@@@@@BA@@@@@@@@AA@@A@@@ADA@@A@@A@@@A@@@A@@@ABA@A@C@C@A@GA@@@@@AA@@@CAA@A@AA@@@@DC@@AA@@@@ABABA@@@@B@@@@GAA@A@C@@@@@@@@A@@@@@@AA@@C@@@@@@A@@@@@@C@A@C@@@@@@@G@C@@@@E@@ACB@B@@A@A@K@A@A@@@@@@ACG@EACA@@CA@@@@@@BE@@@AC@@@E@AB@@AA@@BCEACC@BECB@BCBAA@AA@@@@@@@@@@AAFEDAFEBABADCGA@AB@@A@C@@@AC@C@@@AAA@@@IC@FA@EDA@A@@@@@EA@@@@C@@AA@@AA@@@CAGAABGABCIA@BA@C@CAE@BCBCA@DIEB@KB@@AI@@AAA@AE@C@A@A@@FEFAJ@BGB@DCBEDADA@ABABGD@@EBABC@A@CBAA@@EB@@AA@@@C@@E@@AE@@@@B@@@BI@@DC@AFC@A@CD@DCDA@ABDDA@@HD@AHMBG@C@@C@@AB@@ABABAB@@@BAB@B@@@B@@AB@BA@@BAB@@@B@@@B@B@B@B@B@BABBB@@@B@B@@@BBB@B@BBB@B@B@@@D@@@B@BAB@DI@A@@@C@@@CB@@@BABM@AAA@CA@@@@A@CBG@GAAAA@@@A@@DC@@FDDBFEFGA@FC@A@C@@EG@EDBNI@ALF@AFB@F@B@BHABABG@E@@@MP@BALKA@DEFC@I@@CA@GAAA@CA@@DC@@CEAA@@CGAAGCCG@OA@DQAA@AC@@@@@@KA@J@@E@O@MBS@A@AAQEID@@BBBBKB@B@@@B@@@@FDJCDFBB@B@F@@@@@@@DKD@RBBB@@@@@HCBBB@@D@BA@CA@@GB@BE@@BA@@@A@BBFHOBA@@JDPCDCDDF@@DCBA@@@@@@@ABC@AB@D@@@@@@A@@L@F@D@@D@@AB@@@@@DE@@B@@@@@BLB@@D@B@@@@DABA@@@CAB@IAC@GL@@@@AFJBABFBAB@@@@GH@B@BCBBBB@CBFBDBAB@@@@ABHBCDADF@@DHB@BAPCFA@ABAHBBFB@DE@A@AB@@@DF@BDA@@@@@AB@@@@GD@BD@BAB@@@@@D@FCBB@@@@@@BF@B@BDBFCF@@@@@B@@@@@B@@@@@H@@@@@B@TAD@@B@@@BF@@C@ADA@@@@DABEL@HB@@CC@@@@@@AAAAB@B@@@F@FA@D@BNA@ABB@H@DF@AFBL@@@@@@LL@@E@AHL@H@HFJHBBBBBBDBC@BBEHADC@ABJP@B@HJ@@BAF@H@B@@@@@@A@Q@@@@@C@A@@JA@AB@BH@FB@BDHBB@@CBADD@@BC@@@AB@@B@@@B@@B@@AHB@@@B@@@@D@FC@A@@BD@@BADB@ABHAJAB@EJA@@@@B@@CF@DB@F@BA@@BL@@@BAB@@B@D@B@@@@@@B@BADCF@@@BB@@B@BBD@@@@@@B@@@@@@@BAH@DAHEB@@B@DADAD@LAJ@J@BAD@DAH@DBBAB@DKAAF@BLB@BBDF@B@@B@DAF@BCDEFABIEMHFHMHCBC@E@SBC@CBEDEB"
+        ],
+        "encodeOffsets": [
+          [
+            119394,
+            40978
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

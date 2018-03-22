@@ -1,0 +1,259 @@
+{
+  "map":
+    {
+      "areaName": "全国",
+      "areaCode": "000000",
+      "id":"-1",
+      "name":"china",
+      "data":[
+        {
+          "areaName": "北京市",
+          "areaCode": "110000",
+          "id":"codyy0000000030000",
+          "name":"beijing"
+        },
+        {
+          "areaName": "天津市",
+          "areaCode": "120000",
+          "id":"codyy0000000290000",
+          "name":"tianjin"
+        },
+        {
+          "areaName": "河北省",
+          "areaCode": "130000",
+          "id":"codyy0000000110000",
+          "name":"hebei"
+        },
+        {
+          "areaName": "山西省",
+          "areaCode": "140000",
+          "id":"codyy0000000240000",
+          "name":"shanxi"
+        },
+        {
+          "areaName": "内蒙古自治区",
+          "areaCode": "150000",
+          "id":"codyy0000000200000",
+          "name":"neimenggu"
+        },
+        {
+          "areaName": "辽宁省",
+          "areaCode": "210000",
+          "id":"codyy0000000190000",
+          "name":"liaoning"
+        },
+        {
+          "areaName": "吉林省",
+          "areaCode": "220000",
+          "id":"codyy0000000160000",
+          "name":"jilin"
+        },
+        {
+          "areaName": "黑龙江省",
+          "areaCode": "230000",
+          "id":"codyy0000000130000",
+          "name":"heilongjiang"
+        },
+        {
+          "areaName": "上海市",
+          "areaCode": "310000",
+          "id":"codyy0000000260000",
+          "name":"shanghai"
+        },
+        {
+          "areaName": "江苏省",
+          "areaCode": "320000",
+          "id":"codyy0000000170000",
+          "name":"jiangsu",
+          "data":[
+            {
+              "areaName": "苏州市",
+              "areaCode": "320500",
+              "id":"codyy0000002100000",
+              "name":"suzhoushi"
+            }
+          ]
+        },
+        {
+          "areaName": "浙江省",
+          "areaCode": "330000",
+          "id":"codyy0000000340000",
+          "name":"zhejiang"
+        },
+        {
+          "areaName": "安徽省",
+          "areaCode": "340000",
+          "id":"codyy0000000010000",
+          "name":"anhui",
+          "data":[
+            {
+              "areaName": "合肥市",
+              "areaCode": "340100",
+              "id":"codyy0000000410000",
+              "name":"hefeishi"
+            },
+            {
+              "areaName": "滁州市",
+              "areaCode": "341100",
+              "id":"codyy0000000390000",
+              "name":"chuzhoushi"
+            }
+          ]
+        },
+        {
+          "areaName": "福建省",
+          "areaCode": "350000",
+          "id":"codyy0000000050000",
+          "name":"fujian"
+        },
+        {
+          "areaName": "江西省",
+          "areaCode": "360000",
+          "id":"codyy0000000180000",
+          "name":"jiangxi"
+        },
+        {
+          "areaName": "山东省",
+          "areaCode": "370000",
+          "id":"codyy0000000230000",
+          "name":"shandong"
+        },
+        {
+          "areaName": "河南省",
+          "areaCode": "410000",
+          "id":"codyy0000000120000",
+          "name":"henan"
+        },
+        {
+          "areaName": "湖北省",
+          "areaCode": "420000",
+          "id":"codyy0000000140000",
+          "name":"hubei"
+        },
+        {
+          "areaName": "湖南省",
+          "areaCode": "430000",
+          "id":"codyy0000000150000",
+          "name":"hunan"
+        },
+        {
+          "areaName": "广东省",
+          "areaCode": "440000",
+          "id":"codyy0000000070000",
+          "name":"guangdong"
+        },
+        {
+          "areaName": "广西壮族自治区",
+          "areaCode": "450000",
+          "id":"codyy0000000080000",
+          "name":"guangxi"
+        },
+        {
+          "areaName": "海南省",
+          "areaCode": "460000",
+          "id":"codyy0000000100000",
+          "name":"hainan"
+        },
+        {
+          "areaName": "重庆市",
+          "areaCode": "500000",
+          "id":"codyy0000000040000",
+          "name":"chongqing",
+          "data":[]
+        },
+        {
+          "areaName": "四川省",
+          "areaCode": "510000",
+          "id":"codyy0000000270000",
+          "name":"sichuan",
+          "data":[
+            {
+              "areaName": "成都市",
+              "areaCode": "510100",
+              "id":"codyy0000003100000",
+              "name":"chengdoushi"
+            },
+            {
+              "areaName": "攀枝花市",
+              "areaCode": "510400",
+              "id":"codyy0000003230000",
+              "name":"panzhihuashi"
+            },
+            {
+              "areaName": "宜宾市",
+              "areaCode": "511500",
+              "id":"codyy0000003260000",
+              "name":"yibinshi"
+            }
+          ]
+        },
+        {
+          "areaName": "贵州省",
+          "areaCode": "520000",
+          "id":"codyy0000000090000",
+          "name":"guizhou"
+        },
+        {
+          "areaName": "云南省",
+          "areaCode": "530000",
+          "id":"codyy0000000330000",
+          "name":"yunnan"
+        },
+        {
+          "areaName": "西藏自治区",
+          "areaCode": "540000",
+          "id":"codyy0000000300000",
+          "name":"xizang"
+        },
+        {
+          "areaName": "陕西省",
+          "areaCode": "610000",
+          "id":"codyy0000000250000",
+          "name":"shanxi1"
+        },
+        {
+          "areaName": "甘肃省",
+          "areaCode": "620000",
+          "id":"codyy0000000060000",
+          "name":"gansu"
+        },
+        {
+          "areaName": "青海省",
+          "areaCode": "630000",
+          "id":"codyy0000000220000",
+          "name":"qinghai"
+        },
+        {
+          "areaName": "宁夏回族自治区",
+          "areaCode": "640000",
+          "id":"codyy0000000210000",
+          "name":"ningxia"
+        },
+        {
+          "areaName": "新疆维吾尔自治区",
+          "areaCode": "650000",
+          "id":"codyy0000000320000",
+          "name":"xinjiang"
+        },
+        {
+          "areaName": "台湾省",
+          "areaCode": "710000",
+          "id":"codyy0000000280000",
+          "name":"taiwan"
+        },
+        {
+          "areaName": "香港特别行政区",
+          "areaCode": "810000",
+          "id":"codyy0000000310000",
+          "name":"xianggang"
+        },
+        {
+          "areaName": "澳门特别行政区",
+          "areaCode": "820000",
+          "id":"codyy0000000020000",
+          "name":"aomen"
+        }
+      ]
+    }
+
+}

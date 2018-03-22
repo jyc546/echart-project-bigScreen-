@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820008",
+      "properties": {
+        "name": "圣方济各堂区",
+        "cp": [
+          113.575954,
+          22.124049
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@DI@AMMa_CACA_CA@MD@F@L@H@JVD@@@@@@@BB@@@@@@@@@@@D@B@@@@@@@@@@H@@@@B@F@@@B@B@BBBBB@BB@@D@B@B@BBB@BDJLZK"
+        ],
+        "encodeOffsets": [
+          [
+            116329,
+            22670
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

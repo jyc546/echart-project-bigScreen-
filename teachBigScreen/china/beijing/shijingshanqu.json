@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "110107",
+      "properties": {
+        "name": "石景山区",
+        "cp": [
+          116.165445,
+          39.934601
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@DADGDCACBAHBFDDBBABCBKBCB@DBJHBD@JDC@@B@DAB@BABA@AAABC@AA@AA@@@CBA@CAABC@@DCF@@A@CLEFAB@BC@CHCHIFA@ABCBAB@BAAAF@@A@CE@@@BA@GA@@@@@@@@@@AB@@AA@@@A@@@A@@@@@@A@@@@BA@@B@BA@@@@@@C@@@@@@@AC@@@@FAAA@@@AE@I@@CA@@I@@@@@AD@@@@@@@@A@@B@@@@@@@@@@@BAB@@@@@@@B@DB@A@BB@DB@AB@@@@@@@B@@@B@D@F@D@B@@@B@B@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@B@@A@@@@@@@@@@@@@@@@J@@@@@@@@B@@@B@@@@B@@@@BBAH@@@@@@@B@F@@@BB@@@@@BB@@@@@@@B@@@BB@@D@@@@A@@A@@AB@@A@@B@@A@@A@@@C@@@@@A@@@@@@A@@@@@@@@@@@A@@@@F@@@B@@E@E@C@E@A@@@@@@@E@@@A@@@@@@@AAC@@B@@@@@@@L@@@@@@@B@@@C@@@B@@@@@@@@@AA@@@@@@@AA@@@A@@@@@@B@@@@C@E@@@@@E@EAA@@AC@A@@BA@@@A@@@@@@AA@A@@C@@@@@@A@@@@@E@@A@@@@@@@@BA@@@@@@@@@AA@@@AB@@A@@AABAAAB@@@@@@A@@A@@@A@@@E@@@AI@@EG@@IG@CDE@BC@@BCA@@BA@AAA@AB@B@@ABADABIFG@EAAAC@ABE@A@C@@@A@A@A@A@ABC@EDAB@@@@@AA@@@@@A@@B@@@@@B@BA@@@@@@@AAAD@@A@@@@@CFCFCDABGBABABAF@D@BABA@GDEHCHAFCB@B@@EBA@CBE@CBAB@D@D@BCDADAAGAADCB@@@BA@@BGJBD@BBD@BB@B@DB@@@@B@@@B@BBABCDBB@@@BED@B@B@@@B@@DABDD@@A@BDL@BCB@BABEBCHALJHJBXBLD@@B@@@FA@BB@@BB@DBFD"
+        ],
+        "encodeOffsets": [
+          [
+            118940,
+            40954
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

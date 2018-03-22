@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810004",
+      "properties": {
+        "name": "南区",
+        "cp": [
+          114.227023,
+          22.230811
+        ],
+        "childNum": 6
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@FBB@B@B@DAB@B@B@BBB@B@B@JCDAL@B@B@DABABB@@D@BBB@B@DAD@DA@@B@@@BAHIBC@@@@BA@AB@@CBABABA@A@A@AAABA@@BAB@BBB@@@BA@@@A@@@AA@C@@@A@@A@@@@A@A@A@@@@AA@BABABC@ABC@E@A@A@A@A@@BA@@B@BA@@B@@A@@@AB@@@BA@@AAAA@@@AB@@@@A@AA@@@@@AB@@@@A@@@@BA@@BA@@@AA@@A@M@EBE@ABADGNC@G@IECCA@AAAC@ABCDEDG@AAA@ACAA@EAG@C@ABADE`@@A@C@CCCAA@C@AB@@AD@BBBBBBD@BABABEBCDAB@B@@B@B@@BBAB@@@B@@B@B@B@B@@@B@@@BBB@BAB@@@B@@AB@@A@C@A@A@@@AB@@GJA@CBA@A@AACIAG@CAA@AA@A@A@A@CBEBA@@@ECA@@@A@ABCF@BA@GDCBCBCDCBABADABABA@EDCBCBAD@@MTCHIJABL@@@@@B@B@@@DBB@DBD@D@BADADCDCJIFG@A@ABA@C@@B@@@B@@@D@D@DBB@BB@@@@B@BAB@FBB@B@@@NAF@DAB@DBBAB@F@B@D@JBHBB@"
+          ],
+          [
+            "@@@@BA@@A@@@A@@@@AA@@@AB@@@@@@@@@@B@@@BB@@B@"
+          ],
+          [
+            "@@@BB@@@BA@@@A@@@@@@CC@@A@@B@@A@@A@@@AC@@@A@@B@BA@@B@@@B@BB@@@B@BAB@@@B@@@@@B@"
+          ],
+          [
+            "@@B@@A@@@AA@A@C@@B@@@B@@B@B@B@"
+          ],
+          [
+            "@@B@B@@AB@@AA@AAAAA@AB@BAD@@@BB@B@BA"
+          ],
+          [
+            "@@B@@A@@@@@@A@@@A@AB@@@@@@B@@@B@@@"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              116946,
+              22787
+            ]
+          ],
+          [
+            [
+              116886,
+              22776
+            ]
+          ],
+          [
+            [
+              116934,
+              22767
+            ]
+          ],
+          [
+            [
+              117006,
+              22758
+            ]
+          ],
+          [
+            [
+              116932,
+              22748
+            ]
+          ],
+          [
+            [
+              116970,
+              22738
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

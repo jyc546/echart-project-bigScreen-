@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "110115",
+      "properties": {
+        "name": "大兴区",
+        "cp": [
+          116.398033,
+          39.648908
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@@BAB@F@@CEAAABGBAB@DEBO@AGA@CE@BCDCGABA@@@@BACAEADAA@AADA@A@AHG@@@@BAEABAIABE@@@@HKD@JBA@DB@@B@BA@C@@A@C@@@KA@A@@@@@AF@@C@@@@BA@@@CC@E@K@@@@B@@@@C@A@@BAD@B@@@@@@ABCD@@CEDCDCCO@IB@PAEGAAB@@@B@@AF@@AHA@@DBB@@A@CA@AAGD@@@@A@AA@QLC@C@@@@@@@E@AAACEIDEC@@@@@A@@@ALAAAAA@@JCRFBBB@T@NAP@F@@@@ILB@@@@@@BDB@RB@CPBH@DDBHHB@DB@FB@DD@@CB@@DBBHBB@@DJ@D@FE@CLBBK@ANO@@F@H@BABAAGA@E@A@BEE@BKJ@AMFCH@@FD@B@D@@EHBFEAECC@ED@@CB@@@B@BBHBH@DAB@@@@@DBB@BBN@BA@A@@DA@@D@@@B@J@@CBA@A@A@@@C@@@A@AAA@A@AAA@A@@@A@A@@AABA@A@A@A@A@A@A@@@A@@BA@AB@@ABA@@@A@@@ABA@A@@BABABA@@BA@@@DD@H@NABGC@@GB@CCBAB@DC@C@@EA@CK@@A@@A@@AC@@AA@A@@@AAA@@BABEA@FIA@@@@@EDGB@@@@@@@@ABCC@@@BABAD@@AD@B@DADA@ABAA@BAB@@BDA@@@@@BBA@@@CFA@@E@@@B@@@DA@BBA@AD@BE@@@B@@ADB@@CB@@A@@@F@@BE@@@CC@@A@@@BA@@DA@BC@A@@@@A@@B@@@AEABAA@A@ABEA@@@A@@GA@@A@@@I@A@A@@@@BA@@@ADA@CHC@EN@@EC@ACA@DG@@AA@@AA@AFA@@AA@@BSD@@@DI@E@A@@@@AGA@@A@BA@A@@EA@@@AA@@BA@A@C@@HA@BGEAAFE@AF@@@AGA@DE@BC@AA@@CMA@B@@@@E@@BC@@BE@@F@DA@@@E@@NA@@@E@AJA@A@CB@B@F@@@BK@@A@AA@C@BEGAB@CA@@@BC@AF@@BCA@@DAAAAA@@@ADA@@BC@@@C@@@ABF@@@E@@@E@@GUB@@@AE@@GD@@CB@@ABA@@CA@BCABCB@@AC@BE@@A@BAIA@AIA@AGABAC@CAA@@AE@@@A@A@@@AFD@@@@B@B@@AFCABAEABA@@BE@@A@@GABIB@BA@@@C@@BC@@@@DC@A@@CEA@CEABE@@C@@@@ABA@@@C@@@@@@B@@@@@@@@@@@@A@@@A@A@@@@A@@@@@@AA@AA@@@A@ED@B@D@B@BEBCA@@@@@C@A@@@A@AA@@A@@@A@@@@@BA@A@@@@A@@@A@A@BA@A@A@@MA@@@@@@A@@A@@BA@A@@A@A@@@@@@A@@@CC@@@@@@@@C@A@A@@A@@@@ABC@A@@@AAA@@A@A@C@@@@@@@EBIA@@@AC@@@@BE@@@A@@@@FA@@@@@EA@@@BEA@@A@@@@BG@I@@@@BC@BEB@@C@@D@BA@@AA@@@CB@BA@@@@BA@@BGEA@@BA@AB@@AAA@BA@@@A@A@A@@@@@A@@AE@@AA@@@@CG@@GIA@@@B@BK@@CY@GABC@AD@BEC@@ABEB@D@@E@@@@BEEAOCAFIAE@@FAB@FB@BB@@@@@B@@A@@@AD@B@BB@@BC@ADA@Q@@BG@A@@@C@@@@BD@@@A@@@@BC@@@C@@AB@@C@G@E@C@A@AFA@AD@@@@AA@@AB@B@@CJ@BEHBDIBCDEG@A@AA@AAE@CACCB@C@@CABAA@@CBAD@PDBBDDBBB@BCDIE@@BCA@@@A@AD@@CB@@AB@@BJBABD@@BABB@@@@BB@@BF@@@@AB@H@@GD@@@@@CB@@D@@@@@B@DE@KA@@@BI@@DEFIFB@C@@CE@@A@@@A@@@@@@@@@@@@@@@AA@@A@@@@A@@@A@@@@@A@@@@@@@A@@@@A@A@@A@@@@@BA@@@@@@@A@@@@AA@@@A@@@@@@A@@@@A@@@A@A@@@@@@AA@@@A@@@@@@@@@@@@@A@A@@@A@@@@@@@AA@@@@AA@@@@AAA@ABC@AB@BC@ABA@A@ABA@A@A@@@@@@@ABC@E@A@EBA@ABA@CAG@C@A@@BABC@EBA@C@AAAA@@C@A@A@C@@@GBC@E@C@C@@@@@A@A@@@@B@@@@A@@@A@A@A@A@@@@B@@@B@@@B@@@@@@@@@@AA@@@@@@@@@@A@@@A@A@@@AB@@@@A@@@@@@@A@@@A@@@@@A@@@@@@@A@@@A@A@@@@@@A@@@A@@A@@A@@@@@@@@ABA@@@A@A@@@A@@@@@@@@B@@@@@@@@@B@@A@@@@@@@@@A@@@@@@@@@A@@@@@A@A@@@@@A@@@A@@@A@@@@@ABA@@@A@@BC@@B@@A@ABA@@BA@@@ABCD@@@B@B@@ABA@CBABA@@D@B@B@B@@@BCBA@CBABAB@FABCBCB@@@@@@@BA@@@@@@@@@@@@B@@@@@@@B@@@@@@@B@@@@@@@B@@@@A@@@@@@@AB@@@@@@@@@@@A@@@@@BA@@@@@A@@@@@@@@@@@A@@@A@@@@@A@@@AB@@@@@@@@A@@@A@@@AB@@A@@@A@@@A@@@A@@@@@@@@@@@@@A@@@@@@@A@A@@@A@@@A@@B@@A@@@A@@@@@@@@@@@AB@@B@@@@@@B@@@@A@A@@@@@@@AA@@@A@@@A@@@@@@@@@AE@AB@@ADABABC@C@E@CBA@CDEBC@AB@@@B@@AB@B@@@@@B@@@@@BAB@@@@@BABAB@@AB@@A@AB@@@@@BA@C@ABCD@@@B@@AB@@@@@B@@B@@BB@@@@@@B@@ABABA@@B@@@B@@BBD@@B@B@@@@@BB@@BBB@@ABAAA@@B@@@BBDA@A@BB@BBD@B@B@DADAD@B@@BBA@@@@BA@@BDB@@@@AB@@A@@BA@@@@B@@BBB@@@@BB@@BBBAB@@A@C@@B@B@@@BA@@B@@A@@B@B@@C@A@C@A@@@@B@@B@@BB@@B@@@B@@@BCAA@ECA@A@A@ABABADAD@DABCF@B@@@@@@@BBB@@BBBBBDBB@D@D@B@B@@@BGD@BBDAD@B@@AB@@@BADAB@DAB@@@B@B@D@D@BBD@B@B@B@@@B@@@@@BA@BB@F@FAB@FAB@B@B@@@B@@@B@@AB@B@B@BAB@B@@BDBB@D@@@B@B@D@B@@BBBB@BBD@BB@@B@BBBBB@B@B@BA@@@@@@@AD@BBBBBBB@BDB@BABA@ABA@AB@@@BBBBDBDDFBBDD@B@BB@BBBFBF@B@DBB@DBBA@ABA@@B@BBBBBBBB@BD@@@BB@@@@@B@@@@@BB@@BBBBB@BBBB@@BB@@@B@BB@@B@@AB@@@BBBB@@@@B@@BB@@@B@B@@AB@@@@@@@BBB@@AB@@AB@@@BABBB@@AB@@@@@BA@@DA@@B@@BB@BB@DB@@BD@BD@BB@@@BB@@@@B@B@B@BBB@@@BAB@D@@BD@BBD@BAB@D@D@B@@AB@B@@BD@B@BA@@B@BB@@B@B@BABAB@B@F@H@@@B@B@BF@DBBB@BAB@@F@@@B@@@@A@@BA@@B@AA@ABAD@BBBBD@DBD@DDDABBF@PDDGBB@@@@HBDCICBEFBB@AABEDE@A@@BEA@DED@BCCADCDADCH@@DJRDFH@@P@@@BBD@B@B@DH@DFXBBB@HL@AAF@F@@@@@D@DABIT@DKE@BG@@@@@@@@B@@A@C@EF@@BP@BKFA@BBAD@@BLBB_NBAZ@D@D@@@@AB@B@@@@A@@DR@@@@@`B@@@@@@@@@DB@@D@@@@@B@DL@@ADB@@@RE@@@@@C@@@@@@DB@@DA@@BCDA@@@@@A@A@@@@@@@@CA@@BABADA@@@@@@@@BEACAA@BLD@@ABA@BFA@@B@D@AHB@@BAB@@@@@@@DGDBJBA@@@@HCB@@FB@@@@@B@D@@DF@@@@@@@@@D@@AN@@A@A@A@@H@BB@@@@@BBA@AD@BA@@A@@@AA@AAA@A@@BC@@RDBA@@@BJGFCB@@ABA@AJBB@@AJGB@@@@@B@@@@@@@RFBHH@@@@@@B@@@@@BB@@@@@D@@@@@@DBA@AD@@EDBBAHB@BF@@@ABA@A@DBJD@DD@@BAB@DF@BB@@@@@B@@@@@@@BD@@AR@@C@@BA@@L@@CF@"
+        ],
+        "encodeOffsets": [
+          [
+            119332,
+            40781
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

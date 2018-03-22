@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820005",
+      "properties": {
+        "name": "风顺堂区",
+        "cp": [
+          113.54000,
+          22.187778
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@FGB@@@@@@@@@BA@@@@@A@@@@@@@@AA@@@@@@@AA@@A@@@AA@@A@@@A@@@@@@@@@@@@AAA@@@@@@A@@A@@AA@@@@A@@@A@@A@@@@@CB@A@@@@A@EDBFFJDHDFB@"
+        ],
+        "encodeOffsets": [
+          [
+            116266,
+            22728
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

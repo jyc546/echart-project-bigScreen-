@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310110",
+      "properties": {
+        "name": "杨浦区",
+        "cp": [
+          121.532797,
+          31.300755
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@B@D@@@@@B@@@@@@@@@@@@@B@@@@@@@@@@@@@@B@@@@@B@@@@@CFAB@@ABADCDABA@AB@BADAB@@@@@B@D@DABCBABAB@@ABA@@@@@A@@@CB@@@@@B@B@@@D@@@@@B@@AB@@@@@@@@@BB@@@@@@B@@@@@@@@@@@@@@@B@@B@@@@@@@B@@BB@@B@@B@@@@@@@@@@@@@BB@@BB@@@@@@@BAF@BABCAIAA@CA@@@@@@A@@@@@@@@@@@@BAB@FADCH@B@@@B@B@F@F@@@@@@@@@@@@@@BA@@B@B@@@@@@@B@@@B@@@B@@@B@@@B@@@@@@@B@B@@@@@@@@@B@@D@H@H@D@B@@@@@@B@BB@B@@@@@@@B@@AB@@ABED@@@BFDBDBDDDBDBBDDBD@@@@DANEHC@BDF@@FAFHhOHCNGDCDGDM@W@KBGFIFQBG@CAGEGCEIIGEOIKIC@ECIAGAGAG@@@@@@@G@"
+        ],
+        "encodeOffsets": [
+          [
+            124433,
+            31997
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

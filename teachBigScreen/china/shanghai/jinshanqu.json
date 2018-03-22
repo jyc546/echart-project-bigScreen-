@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310116",
+      "properties": {
+        "name": "金山区",
+        "cp": [
+          121.300736,
+          30.804697
+        ],
+        "childNum": 4
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@@BB@B@@@@AB@@@A@@ACA@@A@@B@@@BB@@@@@"
+          ],
+          [
+            "@@BAD@BB@AB@BABAA@@AEAA@@BABA@A@ABA@AB@@B@@BB@D@"
+          ],
+          [
+            "@@B@B@@@@@BA@@A@@@@@@@@@@@AA@@@@@@@@A@@B@@@B@@@@@@@@"
+          ],
+          [
+            "@@B@@BB@@EB@@CB@@GAE@@ACAG@E@CAAAA@CAA@A@AAC@C@C@AHADAD@DA@EB@BAD@DF@GBABABDDBD@DBHBF@J@NB@ABCD@@BD@@DF@DBF@B@@CDB@BDAB@FA@ADB@BF@@CB@D@@DB@@DB@CB@BA@ABB@@BCAABA@C@@BA@@F@@@@@B@@@@DBBBDDBBBBHH@BFC@@BCBA@AF@BBBBB@@AF@B@NACQ@@@AC@@CC@CICCAA@A@AD@@ABAFHDBHABDB@H@D@@AB@@A@AB@B@BB@BLAB@@F@BAD@B@FA@@BA@ADBHBDD@BAB@AC@AB@@AD@FADA@AB@DAB@FA@F@F@H@BD@B@D@D@B@BABA@CFADAD@BBH@J@B@D@DBDBJ@FBF@NBDBDBFDDFDBFDBBBBBABCDANBB@@A@@@A@@D@BAF@DKDBBCA@BAAA@BA@FK@E@@@BD@@BDAJ@BCF@@AFB@AD@BADB@GA@@AF@@AB@@ADBB@@CDE@AB@@BDBB@@ABCB@BBBDF@@CB@DB@D@DD@@F@@@HA@BBA@BDC@BH@BA@@DBBB@DBF@@AA@@ED@BCBEHA@BB@BDDBBCBA@@@BF@@CB@ABB@@BD@BCBBD@@BD@DCB@B@@@D@DBBAB@B@BAD@BA@BB@BAFBBB@AHB@@B@ABDDABDBBADA@@B@@@@BBB@ABAB@BABA@AB@@A@A@ABE@CB@BCBA@IBCBA@C@AD@FABADABADAB@@AB@BAB@BAB@D@B@@AAA@A@@BA@A@@@@@C@A@@@ABA@AA@@@@A@@@A@@@A@A@@@A@@@@@@D@@@@@@@AA@@BA@AAA@@@A@@BA@@@C@EAA@ABC@@BA@C@A@A@@@AK@@EBEB@@A@@@@A@BA@@@ABBA@B@@@B@B@@AA@@@@AB@@@B@@B@@@A@@DA@A@A@AD@F@@CB@H@@B@B@D@DB@B@@BB@BAD@@@B@@A@EA@ABA@@EB@@CB@@B@A@@@ADCB@B@@@LA@@D@AADA@A@EH@@BBFLAFAJ@@AB@@BD@JU@ABBFCB@JMPYLQ\\i«ugWOCOCgBDaACVAJ@HA@@B@@A@@BB@@BABB@@BC@AB@B@B@B@BA@@@@@AB@B@BBDBBAFDBB@@B@D@BBB@@BD@BCDB@@BA@@@BBAD@@@BBB@BA@@BCBA@@AA@EFCBADCFCBCBKFGDCBAAABBBCBAA@@@BC@@AABBBCBEB@B@DAF@FADADABADBBABA@@B@B@DA@CAABADADABAD@BABG@G@G@CAEAA@@A@AAA@CBEBCC@CAADCDABABAB@B@@AA@@@AA@ABA@AA@@@A@AAACA@@A@AAA@A@CAEA@BABA@ABA@BB@@@BA@A@@A@@A@C@AAC@A@AAAA@H@@C@@@ABA@AAABCBC@C@ABC@C@@AAA@@C@@@AAA@@B@BCA@@AAA@G@@BC@@BA@A@A@E@A@@@@B@BA@AB@BAB@@CB@@@B@@@@@B@B@@B@@BB@@@B@B@D@B@B@@@B@@@@B@B@@@D@@@B@@@B@@@B@@@@@B@B@B@@BD@@@B@B@@@B@B@BBD@B@B@B@@@@@@BB@@@@@B@@@@@B@BBB@@@B@@@@B@@B@@BB@BBB@BBBB@@BBB@BB@@@@@@@@D@B@B@B@BAA@@@CCB@D@@ABBDABABABACABC@C@CBE@@AABAAA@DDBDAD@BBBFHAB@@@B@@AB@@A@AAIDAD@@@@@BA@@@A@@AB@A@@@ACE@ECABC@@BCBABB@@B@@A@A@@B@B@@A@@BB@A@@@EAECGCCAAAEAA@A@A@I@C@A@E@A@AACAGCDCC@BC@A@CBAKCIEIAFMEBA@ABADAAA@A@A@@AB@BA@@@A@@A@@@@A@@AA@@@@@@@@@@@@@@@@@A@ACA@@BAB@B@B@@BADB@@ABAB@DGIAEA@@@B@@@@AD@B@@@BAB@BA@AFGJ@@CBEBIDIBADA@CA@@GGEEAB@@BA@A@@A@@@CB@B@BA@AAA@ACB@CEABAAB@@AAAA@C@AB@B@@DD@@@BCBA@ABHFCBC@BB@BDD@BBB@@B@B@B@BDB@AB@BBDDABBBB@BB@B@B@@BBBBDD@@BBDB@@@BAD@DDGDDDAB@BB@BABDA@DDCDDFB@BDEBFFDCDBCB@BB@BBEBBDB@@@ABAB@@ABABA@G@C@CB@@@B@@BD@B@BA@A@CBWB@@A@@B@D@B@@ABA@@B@@DF@B@@@D@@BBB@@BB@B@D@@DD@BAB@BB@BB@@FA@A@C@A@AA@@@DBD@@@B@@@B@B@F@TBN@D@B@@CBADADABBB@LB@@@J@@GD@FBFBA@@@@BBBB@@@@AD@D@BAAAA@AA@BCA@CB@@@A@@AF@BGFAADDB@AJD@@@@@@HB"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              124321,
+              31442
+            ]
+          ],
+          [
+            [
+              124337,
+              31429
+            ]
+          ],
+          [
+            [
+              124341,
+              31419
+            ]
+          ],
+          [
+            [
+              123933,
+              31687
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+::-webkit-scrollbar  
+{  
+    width: 0px;  
+    height: 0px;  
+    background-color: red;  
+} 
+body{
+    background:url("../imgs/bg.jpg") center center;
+    background-size: cover;
+    color:white;
+    font-family: '微软雅黑';
+}
+#root{
+    /* height:56.3vw;   */
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/iconfont.eot');
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../icon/iconfont.woff') format('woff'),
+    url('../icon/iconfont.ttf') format('truetype'),
+    url('../icon/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.fr{
+  float:right;
+}
+.filter-type{
+    font-size: 0;
+}
+.filter-type li:hover{
+    cursor: pointer;
+}
+.filter-type li{
+    display: inline-block;
+    width:90px;
+    line-height: 36px;
+    font-family: myFirstFont;
+    font-size: 16px;
+    text-align:center ;
+    color:#0f67d9;
+    border:solid 1px #03327a;
+    background:#03327a;
+}
+.filter-type li.active{
+    color:white;
+    background:#020c40;
+}

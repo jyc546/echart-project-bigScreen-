@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810008",
+      "properties": {
+        "name": "黄大仙区",
+        "cp": [
+          114.212985,
+          22.341112
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@AC@E@CBEFY@@@@@A@@B@@@@@@@@@A@AAA@C@C@A@A@A@EA@@A@@@@BA@@@@@@@@@@BA@@@A@@@A@@@C@@AA@@BA@@@@@@@@@ABA@@@@@@@@@@@A@@@A@@@@@@@CA@@@@CA@@@@@@@@A@@AA@AA@@A@@@@@@@@@A@@BAB@@@@@@C@@@@@@B@@ABAB@@ABCD@@@@@@@B@@@B@@@@@@@@AB@@@@@@C@@B@@@@AD@@@B@@@BCDB@FBFBTDB@@@@B@@@BAB@@@@@@BBB@@AB@DA@@B@@@DD@@B@DAB@B@@@@@@@F@DBF@B@B@@@@@BBD@D@"
+        ],
+        "encodeOffsets": [
+          [
+            116970,
+            22892
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810012",
+      "properties": {
+        "name": "元朗区",
+        "cp": [
+          114.046528,
+          22.44832
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@A@GBC@ABCBA@A@@@AEG@A@A@ABABA@@@E@AAC@ABA@@DCBA@A@@@A@M@@@AACAA@A@Q@E@@@AB@@@DBJBLDD@H@BBD@DBD@B@@AFEDADAF@QWIOAC@C@ABCFGBEDCDCJGB@@A@A@A@A@A@@AA@A@AA@C@AAC@CAIGCAA@C@@@@@@@C@A@C@MMAAA@A@A@ABA@ABA@AACAECAAGCA@AAAA@AA@AB@@A@AACC@HS@@B@F@@@@@F@@F@@@@F@@A@M@@@@G@@e@@@@@q@@B@TA@I@@@@P@@SBA@@@@@A@A@EFABC@BBBDBD@@@B@@A@ICA@@@CBG@CBK@A@ABAB@@A@UBCAA@@ACEACCCAEEEA@A@@BA@AH@BAB@@SDPDDBBBFFBBFJJPHJHFDBLDLD@@@@FBHPHNJJLHDDBJ@HB@H@TC@@DCDCBABCBA@@BAB@DBB@@@BD@@@B@B@BAB@@@BB@BBB@BBBBDB@B@B@BABCDAD@B@B@B@@@BD@BBJAB@JAD@@@D@BAB@B@B@BAFA@@B@B@B@BBD@BB@@BB@@@BBD@B@DBB@BB@@BDBBBBBB@B@@@B@@@B@BBB@@@B@@@@@@@B@@@B@B@@@BABA@AB@B@BBB@DDBBBBBB@@"
+        ],
+        "encodeOffsets": [
+          [
+            116828,
+            23059
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

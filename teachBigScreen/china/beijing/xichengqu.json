@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "110102",
+      "properties": {
+        "name": "西城区",
+        "cp": [
+          116.366794,
+          39.915309
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@MAG@IAG@I@GAA@A@@@@BA@@@@@@HE@@@@@C@@@@@@@@B@@@B@@@@A@@@@@AB@@@@A@@@GA@@@@A@A@@@@@A@A@C@@@@@A@A@CBA@@@C@A@CC@F@HB@@B@@@@@@@B@@@@@BB@@FB@AFD@B@@@@@@@@@@@@@@@AB@@@B@B@@@@@@@@@@@@@H@@H@D@B@J@@B@B@@@@A@@@@@@AAB@@@@@B@D@@@BB@@BA@@@@BA@@@@B@DB@@@@@@B@@@B@@@BA@@B@@@@@B@@@@@@@@@D@J@F@@@B@@@@@@@B@B@FAB@F@@@D@D@D@BE@@@@B@@@@@@@@@@A@@@@@@@@@A@@B@@@@@@@B@@@@A@BBB@@@BB@@B@@@B@@@@@B@@@B@@@@@@@BAB@@@@@@@B@B@@@@A@@B@@@@@@B@@@@@@@@B@@@@@@AB@@@@@B@BB@@@@FBB@@@DAB@@@@@B@BB@@@@@@@@@BAB@B@B@@@B@B@BB@@@BBD@B@@@@A@@@A@@@@@A@C@C@@@@@@@@@@B@D@@@@@D@FBB@BB@@B@DBB@@@BBB@@@@B@D@B@F@DAB@B@B@D@F@B@B@BH@L@@DBF@@@@@@J@@@@@H@@@@@H@@E@A@@A@A@@A@@C@@@@@@@@CCA@AB@@AA@@A@AAA@A@ENB@M@M@EB@@@BA@@@@@@BWD@@@@@BIE@@@@@@@@@@@@@@AI@@M@A@@@@BCA@@@@@@A@@@@B@@C@@@@@AA@@AH@@I@A@C@@@@@A@@B@@@B@@@@@@@@E@I@IBG@A@@@A@@@K@@@A@AMAG@@@@@C@A@I@"
+        ],
+        "encodeOffsets": [
+          [
+            119174,
+            40829
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810007",
+      "properties": {
+        "name": "九龙城区",
+        "cp": [
+          114.197647,
+          22.312373
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@DC@A@@@A@@BC@@@@@AD@@@@@@@BA@@@@@@@@@A@@@A@@@@@@DCBA@@BABA@@@A@@@@D@@@@@@@BA@AB@@@@@@@@@B@@@BBB@@BB@@@@@@@@@DB@@@@DB@@@@@@B@@@B@@@BMCEAA@@@A@A@@BAB@BAB@JICETSDQSJeMEPAD@BA@@@@@@BA@CD@@@@A@ABABCDADCDABADAD@B@B@B@@@B@D@BB@@BDD@BBB@B@B@B@B@BA@@BABAJ@@@B@@@@@B@@@@@@@@@BAD@@DDB@@@D@@@B@"
+        ],
+        "encodeOffsets": [
+          [
+            116925,
+            22883
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

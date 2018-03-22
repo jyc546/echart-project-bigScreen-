@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "110105",
+      "properties": {
+        "name": "朝阳区",
+        "cp": [
+          116.526409,
+          39.961489
+        ],
+        "childNum": 2
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@@@@@@B@@@D@DCCA@@@@B@@@@BBBD@B@B@BAF@@@@A@@@@@@@A@@@@@@@@@B@@@@B@@@DCXAAC@A@A@@A@@@A@A@A@@@CA@@@@B@@@BA@@@@B@B@BA@@@@D@@@B@BAB@B@B@B@B@@AB@B@@@B@@@@@@@B@@@B@B@@@@@@AB@@@B@@@B@B@@@B@@@BAF@@@B@@@FAF@DB@AFB@B@@@@A@CB@@AB@@@@@@AB@D[@ALBL@B@@BF@@B@@@DF@AF@FB@@DA@@B@@@B@@@@@@@BBEBCB@@ID@@EBC@AB@@AA@BAC@BC@A@A@ABC@A@A@A@A@ABAB@@AA@@@@A@A@@@C@@@ABC@E@CB@@@@@@@@A@A@A@@@A@A@AB@AA@A@@@@A@@@@A@@A@@@@BC@@@GA@@A@@@A@BC@AFCE@@CBEC@@A@@@@@@EBAB@@@@@@@@@@@@A@@@@@A@@@@@AD@@@@@@@@@D"
+          ],
+          [
+            "@@@D@@@B@@@B@@@B@@ADAHAFAF@B@B@BA@@@@BABGHEJEHADA@@@@@ADABADEFEJCB@@@BCFB@@@FBF@D@D@BBB@B@LBB@FBF@B@@@FBN@D@B@B@DBB@AD@@A@@B@@A@@@@@@@@@@@@@@@@@A@@@@@@@@@@@@@@@@@AB@@@@@@@@@@@B@@@@@@@B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B@@@@@@@@BB@@@@@B@@B@B@BA@A@A@@@AB@@A@@B@B@BB@@@@B@@@B@@@@@DBB@B@B@BB@@DBBFA@@B@@@@@@A@@@@@@B@B@@@B@B@@AB@@B@@@B@B@@@@BAB@B@@BBB@@@@@@D@@@@@@BBB@B@D@@@@@@@B@@@@@@@B@@@@@BB@@B@BB@@B@@@B@@@BB@@B@DBB@ND@@B@@@B@@@@@@@@@B@@@B@@@B@@@@AJ@@@D@@@@A@@B@@@@@@@B@@A@@B@@@@@@@@@B@@@@@@@B@@@@@@@B@@@@@B@@@@@@@@@@B@@@B@@@@DBB@@@@@@@@@@A@@@@@@@@@@B@@@@@@@@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@@@@@@@@@@@@A@@@@@@@@@@@@@@B@@@@@@@B@@@@@@@@@B@@B@@@@@@@@@@@@@@@B@@@@@@@@@B@@@@@@@@@@B@@@@@@@@@@@@@@@@@@@@B@@@@@@@@@@A@@@@@@@@@@@@@@@@@@@@@@@@@@B@@@@@@B@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@B@@@@@@@@B@@@@@@@@@@@@A@@@@@@@@@@@@@@@@@@@A@@@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@@@A@@@@B@@A@@@@JB@@@@@B@@@@@B@@B@@@@B@@@@@@@@@@@@@@@@@@@@@@B@@@@@@@@@@@@@@@@A@@B@@@@@@@@@@@@@@@@B@@B@@@@@@@@@@@@@@@B@@@@@@@@A@BBB@@@B@BBB@@@@@@B@@@@A@@B@@@@@@BB@@@@B@@@@@@@@B@@@@@@@B@@@B@@@B@BF@@AB@@CDCD@DAF@FA@@@@@AB@B@@@BABAP@H@B@DADA@ABABABA@@DCDABAB@D@B@B@D@DBF@D@B@BAB@DAB@DCDADCBCBAB@FCBAHF@BB@@@@@@BBA@CBCBBB@BAAAA@@ADCCC@@@A@@@@IC@@@A@@BABCDADALCHADCDABABCDCBAD@DCFAB@GFA@J@BECCFC^QFAFCDAD@TAF@D@DANGEGNGJFBAFEDC@ABE@C@AA@E@AC@AKA@ABELB@CBAAA@CBG@CBC@A@IBI@KBCBC@C@AA@GFCBG@AB@@@@@@A@@@@@@@AC@A@AA@@A@@DEBC@A@A@@@@A@C@A@@@BA@A@@AK@@ABE@A@@CDE@@@A@@B@FIA@IBGBBAA@BC@AC@@AB@D@@E@C@@A@@@A@BG@@@AA@@@A@@@BA@@D@@AC@BCDA@@AACG@AEAG@@ABAB@@IB@D@@@@@R@B@@@@@@@@A@GBE@AI@@G@AIOBAD@BCFGAAD@CAAAAAAAIGGEG@K@BGF@@@KK@@@@@@AKBEE@@C@GAA@BMB@A@CEBE@@@A@A@BBBB@@@@@@DD@@GAK@AFCB@@@@CB@B@DE@@A@@@AC@SBA@@@@@G@@@@@A@@@@@A@@@@@E@EDCA@A@AAE@@@@@@AAEDC@@@@@A@ABC@@AHC@@@@BA@@@@B@ACE@@CE@@DK@@@AB@@@DQ@@BC@@A@@@@@@@A@@@@AAE@@CBA@AC@@CICCAB@B@BA@@E@@AGAABCA@FC@@BAB@C@@@@C@@@@@A@@A@@@@@A@@@@G@AGQE@@@@@@A@@@@@A@IH@BA@IA@BAB@BA@EDIH@A@@ABQC@@AD@@@BBB@BBB@@B@@@ABC@@BAB@A@@@@AAG@@@@B@B@BM@@BC@@@@@@@@@E@@BL@@@B@@D@@@@@@B@@FB@@@@@@@B@@BB@BBA@@B@@@@BB@@@AB@B@@A@@@@D@@DB@@@@@@@@@@@@DD@@@A@@AB@@DF@AH@@@@@@B@@@@@B@@@B@@@B@@BB@@@@@@BB@@@@@@BA@@BF@@@@@@AB@DA@@@@@BB@B@@A@A@@@@@@@AD@@B@@BD@@B@BA@B@@@BD@@BD@BFABE@@@@@@A@@A@@@@@@@CB@B@@@@@@@@@@@BA@@A@@GF@AA@@AABA@@@ABABA@@BA@CB@AA@@CCD@DA@@@@@@@@B@@@@@@@@A@@D@B@B@@@B@@B@B@@B@@@BA@@@@D@B@@BBBB@B@@@@@B@DAF@@@@@BAH@BD@@BB@@@B@@@@@BAB@B@@@@DD@@B@@@@@@C@@BG@@F@@@B@@@D@@@@@@A@@BD@B@@DC@@@A@A@A@A@A@@@A@A@@@A@A@@@A@@A@@A@@@@B@B@D@B@D@D@@@BAD@@@@@D@D@HAF@JF@@A@@@BB@@@B@@A@@@@@@@@BBB@@@@@B@@@@@DA@@@@@F@@@@@@@@@@@D@B@@@@@@@F@@@BB@@B@@@@@B@B@@@B@@BB@@B@@@@@@@@@@B@B@@B@@@A@@B@@@@@@@@@@C@A@@@@@@@A@@@@@AA@@@@@@@@@@A@@@@@@@@B@@BB@FC@@DABEA@@@@A@@@@@BA@@@A@@B@@@@@@@@@C@@AA@@B@@@@@@@@@@@@A@@@A@E@@B@@@@@@B@@B@@@@@@@@A@@D@@@B@@@@@@@@@@@B@@@B@@@BB@@A@@@FA@@@@@C@@@@@C@@F@@@@@@@@@@Q@A@A@@BC@@DA@@F@B@@ADC@@BB@@DC@@E@@@@@@@A@@@A@A@A@@@@@A@@@A@EC@@AA@A@@@ABA@A@@@A@A@@@A@ABC@@@@@@@@@@@A@A@@@@@@@A@@@E@@CCABB@B@BB@@BA@@BDB@D@@@@@@D@@@@BB@B@@@@B@FG@@@@@G@@@@@I@@@@@@@"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              119390,
+              41009
+            ]
+          ],
+          [
+            [
+              119175,
+              40933
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

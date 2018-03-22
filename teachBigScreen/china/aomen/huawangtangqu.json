@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820002",
+      "properties": {
+        "name": "花王堂区",
+        "cp": [
+          113.548052,
+          22.200175
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@AA@@@@AACA@@@AA@@@CA@A@@@@@@@@@@@A@@@@@@@@@@@@@A@@@B@@AA@@@@A@@AA@@@@B@@@@@@@@@@@@@@ABA@A@@@@@@@@@CBA@@@@F@F@BJBHB@@BB@@B@@@B@FE@@BA"
+        ],
+        "encodeOffsets": [
+          [
+            116281,
+            22734
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}
