@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "110106",
+      "properties": {
+        "name": "丰台区",
+        "cp": [
+          116.286968,
+          39.843642
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@G@@@@@@@@@@@@@A@A@@BA@@@@@@@@@@@@@@A@C@BEA@@EA@@A@@@@@A@@@@@@@AA@@G@EDDB@D@@@B@DAB@B@@@@@D@B@B@@@@@B@B@@@@@HB@@B@@@@@BA@@@@B@@@@@@A@@@A@@@@@@D@@@@@F@@G@@@@B@@A@@B@B@HBJ@H@JBH@NB@C@@@CA@@@@@@@@@A@@@@@@AA@@@@@@@@@B@@@@@B@@@@@@AB@@@@@B@B@BBB@B@@@FB@A@@@A@@@@F@@C@@@@B@B@@ABA@@@B@@B@@@@A@@@@@@@A@A@AB@A@@@J@@BB@@@@@B@@@@@B@B@@@B@@@D@@@@@DAD@D@@@@@@@@BB@@@@@B@AHB@@@B@@@@@@@@DB@@BA@@@@@@D@@@@@B@@@@C@@DF@@@F@@@B@BBB@@@B@D@@@D@P@LAD@@@@@@@BB@@@@@@@@B@@A@@@AA@A@@@@A@@@A@A@CB@@@@@@@@@@A@@@@@@B@@CDC@DB@@BDAB@@AB@BABA@@B@BA@BB@@BHE@@@BB@@A@@@@@@@@@@@ADA@@@@@@B@@@@B@@@@F@BAAEC@@AC@@A@@@AABA@@@AC@@@AC@@B@@@@@@@B@BA@A@@A@@@@CBA@@B@@@@E@@AB@@A@@@@A@@A@@@@A@@AA@@@A@@@A@@@@@A@@@@@@@BGE@@CA@@BB@@@C@@C@@@@@@@@@@A@@CC@@@@@@BA@A@@B@@AA@@@@@AB@AAA@@AA@@@@@@@A@@EA@@@@@@@@CA@@@K@@A@CC@A@@@@@A@@EA@GD@@@@ABAIHC@C@@@@@@BA@AA@BGC@A@@@EB@AAB@BC@AKB@DBFB@A@@@@@@B@BCBA@AB@@D@@@@@@B@B@@@@@B@DC@AB@@CA@@C@@@@D@@@@@F@@Q@@CA@BK@@C@A@@@@@CA@@C@@@@@@@@_A@@@@Q@@CB@@@@@@ABA@@@@@C@CBYMAA`KA@AC@AB@AEBALO@@AE@@F@D@BA@@@@@@@@@AHF@CLS@AJCBC@@@@@E@E@BBK@@GAAWACEG@@C@A@AAC@A@@@OG@CEIQ@CG@CDCBCDDBADC@CFB@AF@@@BCFAFBBA@EAAFJDCDGA@@@@AACHOCE@AACBCCC@CAC@AAAAC@AB@BBBA@@@AB@@@B@@A@@@E@@@BA@AAACAE@@BBD@DAB@BABBB@@DF@B@B@DAD@BABCDCBA@CD@BAB@B@D@BAB@BABC@Q@CBA@BCCAY@@E@C@ADCAAAA@AA@CAAA@@AAA@@@A@@@@@BG@AA@@@AA@@@@@A@@@A@@@@@@A@@@@AA@@@@@A@@@@@@A@@@@@AA@@@@@@@AA@@@@@A@A@A@@@@@A@C@A@G@E@GAGE@@B@AEB@DA@A@AAABEBACG@BDC@BD@@A@A@A@ABA@A@G@C@C@@AAAAGAGEI@@@@AAABCECBAAA@@@@@IA@BE@@BAB@@AA@@BA@AC@AAAA@@ABABCCABBDA@AAA@C@A@A@AAACA@A@@AG@AFA@@GA@AHA@AB@BB@@BAB@@AB@BB@@@B@@@BA@@@@@@@D@B@@@@A@@@@AC@@@@B@@@BBB@@BBBD@BB@BB@AB@@A@@A@BA@@B@@@BBBB@@BA@BB@@A@@@BD@D@B@A@A@@@@B@BFA@@@B@@C@@@@@A@@BA@@@@B@@B@@BA@@@C@ABA@@BA@@@A@A@AA@@AB@@@@@AA@@BA@@B@F@@@BAAA@@@@@A@A@@BA@@@A@BCA@@AAB@@M@@AB@@CGA@BC@@E@@@B@BAB@@@@AA@@@@C@@AB@@@@A@@@AA@A@A@@BA@AAA@@B@BAB@@@AA@@A@@A@@@@B@B@@BB@B@DAB@BAB@BBBA@@B@B@B@@@@BB@@@@@@@B@@@BA@@@@@@B@@@B@@@B@@@B@@A@@B@@AF@H@FBB@@B@BB@@@@@BABA@A@B@@BDAARB@@FADC@ABAA@@@E@@A@@@AFABA@@@A@AAAB@@@B@B@BADEBA@A@ABABA@ABC@E@CBCBIFDF@DDBDBDARDANAFCDHFFBJBHCDABADAHBJDHAD@DB@DBDB@D@HBPHJ@BBB@DB@@@@DB@@@@BBTFNBB@BAB@FD@F@@B@B@D@DCD@D@B@BBB@@BB@BCBB@@@@@@B@@A@A@@@@@AB@@@@@B@@B@@@@BAFCD@BAB@B@B@B@@@D@B@F@BAD@BBFBH@JEBABCBA@@@ABAB@BBB@@AB@AD@@ADF@DCH@@JH@@FJ@@B@@@F@@@B@@@BB@@@@@@@BABBBA@BB@@@BA@@B@@B@@@@@@@@AB@@@@@@@@@BF@@@@@B@@@@@@@@DB@B@@B@@@@B@@@B@@AB@D@@BB@FBF@@@@@F@D@@@@@@A@@@@B@@@B@@B@@@@@@BB@@B@@@@@@@D@@@@@@@@@@@@@B@B@@@@@B@BA@@B@@@F@D@@@@@@@@@@@@@B@@@@@F@DBH@B@@@@@B@@@H@H@D@B@B@@G@K@@@@BABB@@@@BBBB@@@@@@B@@@B@@@@BB@B@@@@A@@@@@B@@ABD@B@B@@BB@@@A@C@@BD@BB@B@@F@@@@@@@@@BB@@B@@@BB@@B@@@F@@@@@B@@@@@N@B@@@"
+        ],
+        "encodeOffsets": [
+          [
+            119118,
+            40855
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

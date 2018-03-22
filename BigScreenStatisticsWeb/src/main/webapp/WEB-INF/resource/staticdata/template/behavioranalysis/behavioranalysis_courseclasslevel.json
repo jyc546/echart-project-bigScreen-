@@ -1,0 +1,252 @@
+[
+  {
+    "courses": [
+      {
+        "courseCnt": 154,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 169,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 194,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 150,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 165,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "SH年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 167,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 182,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 144,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 153,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 198,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "QT年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 115,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 137,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 141,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 123,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 192,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "HL年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 151,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 199,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 177,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 159,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 158,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "PF年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 199,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 110,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 105,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 193,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 128,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "QH年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 161,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 163,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 148,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 102,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 118,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "NS年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 185,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 150,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 138,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 109,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 114,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "WX年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 163,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 113,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 176,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 161,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 188,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "AJ年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 199,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 181,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 133,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 159,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 137,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "AG年级"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 103,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 122,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 107,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 105,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 146,
+        "instructMode": "balance"
+      }
+    ],
+    "classlevelName": "NE年级"
+  }
+]

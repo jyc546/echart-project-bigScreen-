@@ -1,0 +1,14 @@
+{
+        "type": "FeatureCollection",
+        "features": [{
+            "type": "Feature",
+            "id": "120105",
+            "properties": {"name": "河北区", "cp": [117.211569, 39.166632], "childNum": 1},
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": ["@@DBB@@AB@JBBBDBJKDB@@B@@@@@@@@@DBBBB@BBDBDBBBB@@@@@BA@@@@@@BABAFBHIDABBBA@@B@JJDDDB@@BABABABADCB@BABABA@@@AB@@@@@BABA@@BABAB@@A@@AA@@AACCCCA@AAAABBJ@@AHBBC@AF@@@@@@@B@@@@@B@@@@@@@BBBBDC@@@@@A@G@I@@A@A@A@A@C@@@A@A@A@A@A@@@A@@A@@@@@CBC@C@CK@E@K@I@A@@@A@MI@@@@@@@@@@CDEFAD@A@A@@@AA@@AA@CAGAAAA@@@AA@@AC@A@@@A@AB@DCB@HCAA@@@@@@@@AAA@CAGAEAA@A@ABABABAB@B@BBH@J@B@BABA@CDABABEFADEDABCBCBAB@@@BABB@@@BBDB@BBB@B@@@BCD@B@B@FBB@DAB@BA@@@@@A@EAA@ABA@EDB@@B@@@@@@BB@@D@DBH@DBD@AB@@@@"],
+                "encodeOffsets": [[119993, 40130]]
+            }
+        }],
+        "UTF8Encoding": true
+    }

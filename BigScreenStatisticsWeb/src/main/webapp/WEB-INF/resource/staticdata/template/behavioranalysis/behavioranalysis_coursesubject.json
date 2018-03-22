@@ -1,0 +1,252 @@
+[
+  {
+    "courses": [
+      {
+        "courseCnt": 121,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 161,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 143,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 119,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 191,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "OM学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 130,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 112,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 142,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 118,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 195,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "PJ学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 108,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 166,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 176,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 186,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 102,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "US学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 121,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 163,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 196,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 112,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 126,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "XS学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 189,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 109,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 122,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 174,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 146,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "IS学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 200,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 182,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 149,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 111,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 154,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "UY学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 143,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 167,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 111,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 130,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 169,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "CR学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 115,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 119,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 136,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 125,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 123,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "HQ学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 131,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 152,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 153,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 136,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 167,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "FI学科"
+  },
+  {
+    "courses": [
+      {
+        "courseCnt": 145,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 117,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 179,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 142,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 148,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "RN学科"
+  }
+]

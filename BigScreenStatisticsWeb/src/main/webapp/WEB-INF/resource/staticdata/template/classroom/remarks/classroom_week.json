@@ -1,0 +1,9 @@
+{
+  "masterRoomCnt": "主讲教室",
+  "planCourseCnt": "计划开课",
+  "realCourseCnt": "实际开课",
+  "receiveRoomCnt": "接收教室",
+  "usedRoomRatio": "教室使用率",
+  "validCourseCnt": "有效授课",
+  "validCourseRatio": "开课比"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "count": 158,
+    "studentUseRatio": 22,
+    "teacherUseRatio": 78,
+    "resourceType": "video"
+  },
+  {
+    "count": 196,
+    "studentUseRatio": 22,
+    "teacherUseRatio": 78,
+    "resourceType": "doc"
+  },
+  {
+    "count": 103,
+    "studentUseRatio": 22,
+    "teacherUseRatio": 78,
+    "resourceType": "pic"
+  },
+  {
+    "count": 126,
+    "studentUseRatio": 22,
+    "teacherUseRatio": 78,
+    "resourceType": "audio"
+  }
+]

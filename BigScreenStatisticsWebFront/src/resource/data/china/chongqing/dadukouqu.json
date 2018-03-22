@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "500104",
+      "properties": {
+        "name": "大渡口区",
+        "cp": [
+          106.47613,
+          29.431002
+        ],
+        "childNum": 4
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@@@B@BA@A@@BA@AB@B@B@B@@AAA@@@E@A@ADAB@BBB@@DBBB@B@B@@AB@AA@AB@@@@@@@@@B@@@BD@BAFA@@BBBB@B@BA@@@AAA@@BC@AB@@@BBB@@BB@BAB@BA@@A@AA@@BCD@@AB@@BB@@BDDDD@BAB@@@HABAD@@@D@@BJDJ@D@HB@@BBAD@@@B@@BABC@ABADABC@@BCDA@@B@BBDDDBDFR@BBBB@BABAB@FDBBB@BAB@@B@BAHADABABCB@BABAA@@AAAA@ABAA@@@C@CB@@@@@@A@@BAB@DBB@B@BAD@D@BB@B@ACDCB@@@@@@DBDBBBB@@@@@@B@D@D@D@@@@@AD@@@@@@@BB@B@D@@@@@@@FAB@D@B@@A@@@AAA@ABABABAB@B@B@@@@@BB@@@BA@ABE@@B@BB@@@B@@@@@@@@@@@@@B@FA@@BADAB@@@@@@@@@@@FA@BD@@BBB@@DBB@B@@@@A@E@ADABA@@BB@B@D@BBDB@@CB@DADAHADADADAB@B@@@AB@BAB@@BABABCB@BA@A@AAA@AACCBC@CBC@A@C@C@CAAAAAAACAACAICY@I@G@CBEBCDEDANQX]BADABADKFI@ADEBC@A@A@AACAAAAA@E@EBCBCBEBCDMHKBC@G@EAE@GAECEAGCICGAGCECCAEEEACCCECCACAEACAEACCEACECECAAECGAGAEACCGCEAGAI@CA@J@BABADADAHADBD@@D@F@B@B@BBFJBDBB@@ABCB@@AH@H@H@@ABCDC@CBABCDAD@@BB@@B@B@@B@B@BABCD@B@FCL@D@B@DB@BBB@D@@BB@ADCFA@ADA@@BBD@B@J@B@BDFBB@F@DB@@BDAB@BABAB@FB@@B@BBB@@A@@B@AA@C@@@CBAB@DAB@BAB@@A@CAG@A@ABABADAD@B@BB@B@@AB@@AD@@@BDB@@@@@@B@"
+          ],
+          [
+            "@@@@@@@@@BA@@@@@@@@@@@A@@@@@@@@@@@@@@@@@@B@@@@A@@@@@@@B@@@@@@@@@@@@@BBB@@@@@@@@@@@B@@@@@@@@@@@@@@@@@B@@@A@@A@@@@@@@AA@@@@@@@@A"
+          ],
+          [
+            "@@@A@@@@@B@@@@A@B@@@@@@@@B@@@@@@@@@@@@@@@@@@@@@A@@@@@@@@"
+          ],
+          [
+            "@@@@@@@@@@@@@@@@@@@@@@@B@@@@@@@@@@@A"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              108979,
+              30133
+            ]
+          ],
+          [
+            [
+              108965,
+              30147
+            ]
+          ],
+          [
+            [
+              108979,
+              30134
+            ]
+          ],
+          [
+            [
+              108978,
+              30134
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

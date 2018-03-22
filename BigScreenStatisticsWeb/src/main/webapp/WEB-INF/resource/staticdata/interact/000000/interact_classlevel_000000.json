@@ -1,0 +1,46 @@
+{
+  "prepares": [
+    {
+      "classLevelName": "数学",
+      "lessonCnt": 104
+    },
+    {
+      "classLevelName": "语文",
+      "lessonCnt": 129
+    },
+    {
+      "classLevelName": "英语",
+      "lessonCnt": 177
+    },
+    {
+      "classLevelName": "美术",
+      "lessonCnt": 158
+    },
+    {
+      "classLevelName": "音乐",
+      "lessonCnt": 166
+    }
+  ],
+  "evaluations": [
+    {
+      "classLevelName": "数学",
+      "lessonCnt": 125
+    },
+    {
+      "classLevelName": "语文",
+      "lessonCnt": 106
+    },
+    {
+      "classLevelName": "英语",
+      "lessonCnt": 133
+    },
+    {
+      "classLevelName": "美术",
+      "lessonCnt": 118
+    },
+    {
+      "classLevelName": "音乐",
+      "lessonCnt": 189
+    }
+  ]
+}

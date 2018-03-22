@@ -1,0 +1,8 @@
+[
+  {
+    "count": "下载量",
+    "studentUseRatio": "学生使用率",
+    "teacherUseRatio": "教师使用率",
+    "resourceType": "资源类型(video:视频,doc:文档,pic:图片,audio:音频)"
+  }
+]

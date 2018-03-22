@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810010",
+      "properties": {
+        "name": "荃湾区",
+        "cp": [
+          114.08534,
+          22.368458
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@AC@A@C@ABE@CBAAC@C@GBE@AA@@@A@KAA@@@@A@AAC@AA@@AKGAACAA@GAA@EAA@@@A@@B@@@HA@@@@@A@A@A@AA@@@@@@A@A@@@@@AAA@EAAAEAA@@@A@@A@@@@@@@@@@@AB@@@@@BA@@@A@@@@@@@A@@@@@@@@@A@@@@@@@@@@@@@AAA@@@@@@@AAA@@@A@@@@@@@@@@@@@@@@A@@@@A@@@@@@AA@@CACAA@@AA@@@A@EA@@@@@@@@@F@HuASIHyA@E@G@IECCGKAA@ACC@C@@ÙF~bFDHFFL@D@D@BLB@JBB@BB@FDB@BDBBB@BBHDB@A@@@EBABA@@BAF@@CB@@AB@@@DB@@@BBF@@@@@BBBB@BB@D@B@DAJA@@B@@@@BAB@B@@@B@@@BB@B@B@B@B@B@D@BBB@D@JA@F@B@BBBDDBBB@@@BAB@@BBBBBB@HDBBFDDBBBB@BAB@BAB@B@B@BBNND@B@D@@@@@@@D@B@DBJHDBD@BBD@B@@B@BBB@@@BB@VBD@D@DAB@@@FBB@@@BA@@@A@CB@@A@@@@DBB@J@D@J@B@B@F@"
+        ],
+        "encodeOffsets": [
+          [
+            116914,
+            22950
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

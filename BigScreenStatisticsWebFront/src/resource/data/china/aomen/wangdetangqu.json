@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820003",
+      "properties": {
+        "name": "望德堂区",
+        "cp": [
+          113.555252,
+          22.196791
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@A@@CC@@AAA@AB@@@@@@A@@@A@@@@@A@@@A@@@@@@@@@@@A@@@@@A@@@@@@B@@@@@@@@@@@@@B@@@@@@@@@@@BDB@@B@@B@@DBBB@@@@BBB@@@DC@@@@@@@@B@@@@AB@@@@A@A@@A@@@"
+        ],
+        "encodeOffsets": [
+          [
+            116285,
+            22729
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

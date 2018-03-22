@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810003",
+      "properties": {
+        "name": "东区",
+        "cp": [
+          114.228565,
+          22.270779
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@rW@AAA@C@ABCDEFEBCLGDC@A@@AA@@A@@A@ABA@A@A@A@AAC@A@AAAA@AAA@@AAAA@@A@A@@ADGJAB@@A@@@CBC@CBA@A@AAC@@@AAABCBA@A@K@CBIDA@A@A@AAA@A@A@CBA@A@A@EA@HBJF@DBDBDBDDCFABADACAAAAA@A@A@ABADCDAF@@AB@@A@A@@@A@CA@@@@@@@@@@A@@@@@@@@@AB@@@@@@A@@@@@@@A@@@@BAD@B@@@@@@AAA@@@@@@@AA@@@BA@@@@@@BALVFfNTI"
+        ],
+        "encodeOffsets": [
+          [
+            116967,
+            22827
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

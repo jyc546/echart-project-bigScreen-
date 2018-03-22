@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310230",
+      "properties": {
+        "name": "崇明县",
+        "cp": [
+          121.587516,
+          31.626946
+        ],
+        "childNum": 5
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@D@NELCHELCRCZAVEV@bWXCDAVEBERKD@\\U\\K\\GBCNCBJD@REHCXIB@JCTDÔoĒmÎ_ôgZñLcDgG_SY]O]_McIUAOASB]BYDUD_H±j\\fYHJYDODQH½pÛ`gBUAQImwf±ğĖEBoH~zh^rXbLVJZLbJTDVDP@LANE sNIRILMHIDC@@BCB@@ADADCFG@AD@FCBADEBCBCBCC@CACABAPWDEBCHGJI"
+          ],
+          [
+            "@@GBGBGBEDELIPIRGHEDGFOJIHlrjULeR[ZQRKJKHOJYLGFEFAF@D@DDDDDHBHA|GXEHCBAFKFQFKJIFCDC^GLA`K¬_\\CRCXI`MJCRCHCJCNIPIPGJGNMFGHIFIDE@IBGFS@K@GAKASCECEECCAGAE@"
+          ],
+          [
+            "@@KBIBEBgVIFEFQPCF@D@BDBDBN@RCNANEJEXQLKHGBEACACEAG@"
+          ],
+          [
+            "@@B@@@@B@@@@B@@@@@B@@@@BB@@@@@@@@@@A@@@@@@B@@@@@@@@@@@@AB@@@A@@A@@@B@@@A@@@@@@A@@@@@@@@@@@A@@@@@@@@@@@A@@@@@@@@@@@@A@@@@AB@@@@A@@@@@@@@@@B@@"
+          ],
+          [
+            "@@CNELEJCF@DBBFBN@NAP@F@HCHCFAJ@L@FAPELCXGJCHA]FCBEKAOECECWBqBI@CACCG@QDGBCBCFGDIFIFSRKPEJAHAV@\\"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              124346,
+              32532
+            ]
+          ],
+          [
+            [
+              124702,
+              32062
+            ]
+          ],
+          [
+            [
+              124547,
+              32200
+            ]
+          ],
+          [
+            [
+              125176,
+              32174
+            ]
+          ],
+          [
+            [
+              124726,
+              32110
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

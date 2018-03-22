@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820004",
+      "properties": {
+        "name": "大堂区",
+        "cp": [
+          113.55674,
+          22.181119
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@uO_G@@@@@@IA@@CHEHCFAF@H@BFCB@@@@@@BDA@@@@B@@@@B@@@B@@B@@BB@@@@B@@@@B@BB@@@@@@@@@@@@@B@@@BB@@B@@@BB@@B@@@@@@BB@@@@@@@@@B@@@@AB@@@@@@@@A@EHDA@@@@@@@@B@B@BA@@@@@@@@@@@@@@@A@@B@@BB@@@@@BB@@@A@@B@@@@@B@@@@@@@@@@@B@@@B@@@@@B@@@B@@@@@@@BAB@BB@@DD@@@B@@B@BA@@@A@@jUJQ"
+        ],
+        "encodeOffsets": [
+          [
+            116313,
+            22707
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

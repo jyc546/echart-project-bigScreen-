@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310115",
+      "properties": {
+        "name": "浦东新区",
+        "cp": [
+          121.727706,
+          31.105944
+        ],
+        "childNum": 3
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@bMnIpITCLCHCHCHCàTK\\OTKNI^_ÈïTQlaJQ¶±`e`Z¡LDCsEWOW]Wa[@GBI\\wsYg|QNUBģFqAZHZB@@JHBAH@BDJBHA@@@BB@H@@ABB@@F@D@B@B@@@@@DBB@BBH@@@DAF@DC@@BB@@@B@ABA@@@B@AD@B@B@B@@B@@BA@@@@@@BA@@@A@A@C@@B@B@BA@@AAB@@AB@@@DA@@@@@ABA@@A@@A@A@@@A@@@A@B@@B@BA@A@@AA@@D@@D@@B@@@@BB@@@BA@A@@BABADB@@BCB@@EDA@CDA@C@A@A@AAGJA@ABA@AAED@BBBCDABAB@BABADGDABIFABEDIFABIFCBEBEDC@CBEBC@A@C@C@C@E@ABKB@AA@@@@AA@AB@@A@A@@BA@A@GB@A@@@BQBO@IAG@I@A@A@@@@@A@AB@@@AO@A@ABABABABAD@BADC@AA@@OBA@OBACS@@@C@@AE@A@AA@@ABKA@@@BA@@@ABA@FD@BABBBB@AD@BA@@DC@@@@BA@A@@A@@ABBBD@D@@BB@@B@@@DBBBB@@DB@B@@@@@B@@AD@@@@@B@@ABA@@BBB@@CA@@@@AA@BAA@@A@@@B@@AA@@@@ACA@AC@@FAAA@@@@@@B@@@BCA@A@@@@A@@C@@@AE@@AAAAB@@A@@B@@@BA@@@@BBBF@@@B@@BBB@@BBABAA@BB@@B@@@@@B@BD@@@AB@VBB@@B@BBADAAB@AAABB@ABBBA@A@ADAAAD@DECA@A@@A@@A@@AABA@A@@AA@@@A@A@@A@@@AA@AB@BBDADAB@@DB@BB@@B@B@@@AB@@BFBABB@@AB@@@@BAD@B@BB@B@ADD@B@@@@BB@@B@@B@B@@@BBD@CBCA@@@B@@BBABB@@BBBD@@@D@@BA@ABD@B@B@@@@@B@@BB@@@FB@BB@B@B@B@BBADD@@AD@@BB@B@ABB@@BAAABA@@AA@@AAB@@@@ABA@ABA@@@C@A@A@AB@@@@A@@@A@A@AA@@A@@@@@A@@A@@@@@@@@@A@@AB@@@@A@@AA@@@AB@BC@CHBBB@BB@@BBABD@B@BBB@@@DBB@B@@BB@@@B@@ABABBBBD@@FA@@@@@@@@@AFCA@@@BADDBEFA@@@BB@@@@@@CFA@@@@@@BA@@BD@BBCDAACDAA@@AAABE@BCAAAAA@C@BBABA@ABAD@BE@@A@@@@CA@DA@@BA@@BE@ABGA@@@@EA@@A@@AA@@@@@@@A@@BA@GAA@A@A@@@@B@@@@@BAB@BA@@BA@@B@AA@@@@@@@AB@@@A@@@@@@C@@@CA@@AAA@BC@@BAAAABAAA@@BCH@DA@CAAA@BCA@AA@AFA@@B@B@BA@@@A@@@@@A@A@@@A@@@@@@@@A@@@@@@@A@@@@@@@A@@A@@@@@@@@@@@A@@@@@@@@@@A@@@@@@@@@AA@@@@BA@@A@@@@@@@A@@@@A@@AA@A@@@A@@@@@A@BAAA@@B@@@@@@@@@@A@@@@@@B@@@BA@@BEAAA@@DAAA@BA@@AA@D@@@BAB@@@BA@@@@@@@AB@@@A@A@@A@@@AAA@DA@@CAABA@GBDHDFBHADAFKNGJAF@B@@@B@@@DBFDBJJFFBF@DAJCJAF@FBFDFFDFBDBNDPDF@BBBBFDFHNVBDBD@DADEJ@@@@@@@@@@GJEDGFAD@@@@@@@@@@@@AB@D@B@B@BBDHBDBDBJBH@J@H@@@@@@@H@HBHBJBFDD@LJPJHFJJDFFHBH@DAHEREJAH@L@XCNCHCDMHGDgPUJMJEJCF@J@HHLJNRR"
+          ],
+          [
+            "@@PDNARCTEPEFGBKCeEQGEI@IBMNY\\GJELAJ@J@HBB"
+          ],
+          [
+            "@@HRHJNBX@XCRGfEFGBM@eCGIUKWGIgCIAK@KDMPIREVCXARBP"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              124438,
+              32149
+            ]
+          ],
+          [
+            [
+              124808,
+              31991
+            ]
+          ],
+          [
+            [
+              124870,
+              31965
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

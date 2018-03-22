@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>互动教研</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/interActive.css">
+</head>
+<body>
+    <div class="container-header">
+        <ul class="nowTime">
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="location">
+            <i class="icon iconfont icon-buoumaotubiao23"></i>
+            <span class="areaName" data-area-id="-1" data-name="china">中国</span>
+            <div class="selectDom">
+                <div class="zProvinceItem" item-level="1">
+                    <div class="zprovinceItem-head">
+                    <input type="text" id="provinceInputValue" class="currentValue" readonly="" value="请选择">
+                    </div>
+                    <div class="zprovinceItem-main">
+                        <div class="provinceContainer">
+                            <div class="provinceTips">全部</div>
+                            <ul class="provincelist">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="zcityItem" item-level="2">
+                    <div class="zcityItem-head">
+                        <input type="text" id="cityInputValue" class="currentValue" readonly="" value="请选择">
+                    </div>
+                    <div class="zcityItem-main">
+                        <div class="cityContainer">
+                            <div class="cityTips">全部</div>
+                            <ul class="citylist">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>互动教研大数据</h3>
+    </div>
+    <div class="container-content">
+        <div class="content">
+                <div class="main">
+                        <div class="admin-teach-data-count">
+                                <div class="com-count-title">行政区教研数据统计</div>
+                                <div class="com-screen-content">
+                                                <div id="admin_teach" style="width:100%;height:400px;"></div>
+                                    <div class="bumbles">
+
+                                    </div>
+                                 </div>
+                            <span class="left-top"></span>
+                            <span class="right-top"></span>
+                            <span class="left-bottom"></span>
+                            <span class="right-bottom"></span>
+                        </div>
+                        <div class="teach-count-pic">
+                                <div id="parent">
+                                        <select>
+                                                <option value="1">2017</option>
+                                                <option value="2">2016</option>
+                                                <option value="3">2015</option>
+                                                <option value="4">2014</option>
+                                                <option value="5">2013</option>
+                                        </select>
+                                </div>
+                                <div class="com-screen-content">
+                                    <span class="xName">浏览量</span>
+                                    <span class="yName">数量</span>
+                                        <div id="teach_count_pic" style="width:100%;height:328px;"></div>
+                                </div>
+                                <span class="left-top"></span>
+                                <span class="right-top"></span>
+                                <span class="left-bottom"></span>
+                                <span class="right-bottom"></span>
+                        </div>
+                </div>
+            </div>
+            <div class="left">
+                <div class="interact-status">
+                    <div class="com-count-title">互动教研整体情况</div>
+                    <div class="com-screen-content flex-center">
+
+                    </div>
+                    <span class="left-top"></span>
+                    <span class="right-top"></span>
+                    <span class="left-bottom"></span>
+                    <span class="right-bottom"></span>
+                </div>
+                <div class="acting-school">
+                        <div class="com-count-title">活跃学校</div>
+                        <div class="com-screen-content">
+                                <table class="course-table mt30">
+                                        <thead>
+                                            <tr>
+                                                <td>序列</td>
+                                                <td>学校</td>
+                                                <td>教案</td>
+                                                <td>集体备课</td>
+                                                <td>评课议课</td>
+                                            </tr>
+                                        </thead>
+                                       <tbody></tbody>
+                                    </table>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                </div>
+                <div class="acting-teacher">
+                        <div class="com-count-title">活跃教师</div>
+                        <div class="com-screen-content">
+                            <span class="actingxName">总量</span>
+                                <div id="acting_teacher" style="width:100%;height:300px;"></div>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="course-status">
+                        <div class="com-count-title"></div>
+                        <div class="com-screen-content">
+                                <div class="course">
+                                        <div class="status_title">集体备课</div>
+                                        <ul class="prepare-lessonCnt">
+                                            <li class="data-count">
+
+                                            </li>
+                                            <li class="status">
+                                                    <span>未开始</span>
+                                                    <span>进行中</span>
+                                                    <span>已结束</span>
+                                            </li>
+                                        </ul>
+                                </div>
+                                <div class="course ">
+                                        <div class="status_title">评课议课</div>
+                                        <ul class="evaluation-lessonCnt">
+                                            <li class="data-count">
+
+                                            </li>
+                                            <li class="status">
+                                                    <span>未开始</span>
+                                                    <span>进行中</span>
+                                                    <span>已结束</span>
+                                            </li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                        
+                </div>
+                <div class="Teach-research-distribution">
+                        <div class="com-count-title">教研分布
+                                <ul class="filter-type fr" style="margin-top: -9px;">
+                                        <li class="active" data-type="subject">学科</li>
+                                        <li data-type="classLevel">年级</li>
+                                </ul>
+                        </div>
+                        <div class="com-screen-content" style="margin-top:9px;">
+                                <div id="teach_research1" style="width:100%;height:330px;"></div>
+                                <div id="teach_research2" style="width:100%;height:330px;"></div>
+                                <div id="teach_research3" style="width:100%;height:330px;"></div>
+                            </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                </div>
+            </div>
+    <div class="clearfix"></div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/areaMap.js"></script>
+    <script src="js/rootPath.js"></script>
+    <script src="js/interActive.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "evaluationLessonCnt": 170,
+    "lessonCnt": 194,
+    "prepareLessonCnt": 164,
+    "schoolName": "IT小学"
+  },
+  {
+    "evaluationLessonCnt": 180,
+    "lessonCnt": 142,
+    "prepareLessonCnt": 110,
+    "schoolName": "WI小学"
+  },
+  {
+    "evaluationLessonCnt": 138,
+    "lessonCnt": 112,
+    "prepareLessonCnt": 196,
+    "schoolName": "TV小学"
+  },
+  {
+    "evaluationLessonCnt": 178,
+    "lessonCnt": 188,
+    "prepareLessonCnt": 197,
+    "schoolName": "QD小学"
+  },
+  {
+    "evaluationLessonCnt": 128,
+    "lessonCnt": 148,
+    "prepareLessonCnt": 123,
+    "schoolName": "FF小学"
+  }
+]

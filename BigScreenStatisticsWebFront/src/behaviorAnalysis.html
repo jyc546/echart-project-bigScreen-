@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>课堂行为</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/course-doing.css">
+</head>
+<body>
+<div class="container-header">
+    <ul class="nowTime">
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="location">
+        <i class="icon iconfont icon-buoumaotubiao23"></i>
+        <span class="areaName">中国</span>
+        <div class="selectDom">
+            <div class="zProvinceItem" item-level="1">
+                <div class="zprovinceItem-head">
+                    <input type="text" id="provinceInputValue" class="currentValue" readonly="" value="请选择" placeholder="请选择">
+                </div>
+                <div class="zprovinceItem-main">
+                    <div class="provinceContainer">
+                        <div class="provinceTips">全部</div>
+                        <ul class="provincelist">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="zcityItem" item-level="2">
+                <div class="zcityItem-head">
+                    <input type="text" class="currentValue" readonly="" value="请选择" placeholder="请选择">
+                </div>
+                <div class="zcityItem-main">
+                    <div class="cityContainer">
+                        <div class="cityTips">全部</div>
+                        <ul class="citylist">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>课堂行为大数据</h3>
+</div>
+<div class="container-content">
+    <div class="content">
+        <div class="main">
+            <div class="count-course">
+                <div class="r-c-count">
+                    <div class="rc-item">
+                        <h5>累计开课总量</h5>
+                        <ul class="re-all-data allCourseCnt">
+
+                        </ul>
+                    </div>
+                    <div class="rc-item">
+                        <h5>Rt平均值</h5>
+                        <ul class="re-all-data chAvg">
+
+                        </ul>
+                    </div>
+                    <div class="rc-item">
+                        <h5>Ch平均值</h5>
+                        <ul class="re-all-data rtAvg">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="com-screen-content">
+                    <div id="main3" style="width:100%;height:420px;"></div>
+                </div>
+                <span class="left-top"></span>
+                <span class="right-top"></span>
+                <span class="left-bottom"></span>
+                <span class="right-bottom"></span>
+            </div>
+            <div class="knowledge-distribution">
+                <div class="com-count-title">知识点分布
+                    <ul class="filter-type fr">
+                        <li class="grade">
+                            <select></select>
+                        </li>
+                        <li class="subject">
+                            <select></select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="com-screen-content">
+                    <div id="main4" style="width:100%;height:380px;"></div>
+                </div>
+                <span class="left-top"></span>
+                <span class="right-top"></span>
+                <span class="left-bottom"></span>
+                <span class="right-bottom"></span>
+            </div>
+        </div>
+    </div>
+    <div class="left">
+        <div class="subject-distribution">
+            <div class="com-count-title">学科分布</div>
+            <div class="com-screen-content">
+                <div id="main1" style="width:100%;height:465px;"></div>
+            </div>
+            <span class="left-top"></span>
+            <span class="right-top"></span>
+            <span class="left-bottom"></span>
+            <span class="right-bottom"></span>
+        </div>
+        <div class="grade-distribution">
+            <div class="com-count-title">年级分布</div>
+            <div class="com-screen-content">
+                <div id="main2" style="width:100%;height:380px;"></div>
+            </div>
+            <span class="left-top"></span>
+            <span class="right-top"></span>
+            <span class="left-bottom"></span>
+            <span class="right-bottom"></span>
+        </div>
+    </div>
+    <div class="right">
+        <div class="student-favorite">
+            <div class="com-count-title">学生偏好</div>
+            <div class="com-screen-content">
+                <div id="main5" style="width:100%;height:420px;"></div>
+            </div>
+            <span class="left-top"></span>
+            <span class="right-top"></span>
+            <span class="left-bottom"></span>
+            <span class="right-bottom"></span>
+
+        </div>
+        <div class="teacher-rank">
+            <div class="com-count-title">教师排行榜</div>
+            <div class="com-screen-content">
+                <span class="xName">课程数</span>
+                <span class="yName">-好评率-</span>
+                <div id="main6" style="width:100%;height:380px;"></div>
+            </div>
+            <span class="left-top"></span>
+            <span class="right-top"></span>
+            <span class="left-bottom"></span>
+            <span class="right-bottom"></span>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/echarts-wordcloud.min.js"></script>
+<script src="js/rootPath.js"></script>
+<script src="js/course-doing.js"></script>
+</body>
+</html>

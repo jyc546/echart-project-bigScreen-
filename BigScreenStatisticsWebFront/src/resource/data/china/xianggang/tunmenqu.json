@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810011",
+      "properties": {
+        "name": "屯门区",
+        "cp": [
+          113.963308,
+          22.391896
+        ],
+        "childNum": 8
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@AA@A@A@EIBC@A@AAC@A@A@A@A@A@A@@A@@@A@@@ABA@A@@A@@@IBCBA@C@A@@AAAAA@@@@E@AA@@A@@C@@BA@@DA@@BE@AB@BAFA@@B@A@GCAAA@AAACA@ECA@@AAA@IKAADCDCDCBEB[DE@WJEDIBKBGAE@MECACCACCCCAG@G@E@SLOHEFCH@DBDBD@H@JCDADAJAFABCBMDABBDHHRTFBRFB@TC@@BA@ABGB@@AB@B@FFBFDDBDDF@BB@DBVAB@@@BABAB@L@DAH@DA@@B@JDB@@@@A@@ACACAAD@BAFEB@B@@@@@B@TA@@@O@@J@B@@S@Ar@@@@@f@@@@H@@N@B@@@@E@@E@@@@E@@@@@E@AT@@G"
+          ],
+          [
+            "@@BA@@B@B@BAD@@A@A@AA@@@@AAA@A@@BAB@CABCAAC@A@@B@DBD@DABABCBAB@BBB@@B@B@"
+          ],
+          [
+            "@@@@@@B@@@@@@@B@@@@A@@@@@@@@@A@@@@A@@BAB"
+          ],
+          [
+            "@@B@@AB@CC@@A@A@@BBBBB"
+          ],
+          [
+            "@@BB@AB@AA@A@@@A@AA@@@@@A@@B@@@@@@@@@B@BAB@@@@D@"
+          ],
+          [
+            "@@@@@AAEACAAA@@B@DBDDDB@"
+          ],
+          [
+            "@@BA@@B@@ACCA@A@@BABBF@@BB@@@@@A@@@AB@"
+          ],
+          [
+            "@@@A@@@@@@@@A@@B@@B@@@@@"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              116810,
+              22924
+            ]
+          ],
+          [
+            [
+              116618,
+              22917
+            ]
+          ],
+          [
+            [
+              116612,
+              22891
+            ]
+          ],
+          [
+            [
+              116626,
+              22888
+            ]
+          ],
+          [
+            [
+              116629,
+              22880
+            ]
+          ],
+          [
+            [
+              116725,
+              22874
+            ]
+          ],
+          [
+            [
+              116708,
+              22866
+            ]
+          ],
+          [
+            [
+              116720,
+              22861
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

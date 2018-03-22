@@ -1,0 +1,52 @@
+[
+  {
+    "planCourseCnt": 179,
+    "realCourseCnt": 116,
+    "teacherName": "OD教师"
+  },
+  {
+    "planCourseCnt": 175,
+    "realCourseCnt": 120,
+    "teacherName": "PO教师"
+  },
+  {
+    "planCourseCnt": 199,
+    "realCourseCnt": 120,
+    "teacherName": "UH教师"
+  },
+  {
+    "planCourseCnt": 186,
+    "realCourseCnt": 116,
+    "teacherName": "WW教师"
+  },
+  {
+    "planCourseCnt": 198,
+    "realCourseCnt": 141,
+    "teacherName": "ML教师"
+  },
+  {
+    "planCourseCnt": 197,
+    "realCourseCnt": 110,
+    "teacherName": "RR教师"
+  },
+  {
+    "planCourseCnt": 156,
+    "realCourseCnt": 100,
+    "teacherName": "EJ教师"
+  },
+  {
+    "planCourseCnt": 175,
+    "realCourseCnt": 149,
+    "teacherName": "SU教师"
+  },
+  {
+    "planCourseCnt": 188,
+    "realCourseCnt": 146,
+    "teacherName": "UK教师"
+  },
+  {
+    "planCourseCnt": 156,
+    "realCourseCnt": 123,
+    "teacherName": "BC教师"
+  }
+]

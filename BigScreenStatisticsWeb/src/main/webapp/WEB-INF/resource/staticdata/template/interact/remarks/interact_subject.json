@@ -1,0 +1,14 @@
+{
+  "evaluations": [
+    {
+      "lessonCnt": "教案数量",
+      "subjectName": "学科名称"
+    }
+  ],
+  "prepares": [
+    {
+      "lessonCnt": "教案数量",
+      "subjectName": "学科名称"
+    }
+  ]
+}

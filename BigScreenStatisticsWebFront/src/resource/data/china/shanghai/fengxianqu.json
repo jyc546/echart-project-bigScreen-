@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310120",
+      "properties": {
+        "name": "奉贤区",
+        "cp": [
+          121.558472,
+          30.912345
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@@LBBA@@BBB@F@@BD@@@T@BDPAB@PA@@BBD@BC@ABCBABABABAB@P@@B@@BAB@@@@@B@B@J@H@JBP@RA@A@@@BHAB@B@@AB@B@@@BAB@@B@@B@@BLABAF@D@D@D@B@D@FADAD@FCFADAJEBAJEFCBAJEBAHCBCBA@ABABADCAA@AFCBBB@BAB@HIBBB@B@D@B@DCB@FC@@DA@AA@BCBA@AB@B@@A@@AA@@@@@AC@@@@CB@@BB@B@@A@AA@B@@@B@@@B@B@@@@BB@BA@@@@B@@C@@BA@@BA@BB@@A@A@AD@B@B@@@B@@A@@@@B@@AA@@@@A@A@ABCA@@@B@BAA@@@A@@AD@@CBE@C@@AG@AAA@C@@@@@A@A@C@EA@BA@@@GAA@@B@AGCI@ABGGA@IA@GYBYr]@©BBEU¡_[cGC[jKROZINA@EDAA@BIVC@@AA@@BI@EBKBAE@AG@@F@BCBBBC@@@KB@@A@A@CD@B@@@B@AA@@DA@@FB@BAB@@F@BA@@@C@ABA@@AA@A@@C@C@A@AG@A@@DE@C@@B@B@BCB@@@B@@@AA@@@A@@B@@B@@BA@A@@@A@B@AA@B@@ABB@@@@@@BA@AF@FL@@B@@@B@B@DAB@@AD@BBB@F@D@@AB@@@B@@BB@BAB@@BB@@@@@@C@@@@@@@@B@@@B@B@@@B@@@B@@B@@BAB@B@@@B@D@@@@@BAB@@@BBB@BA@C@A@ABA@ABA@@BA@CBABCBABEBC@@B@DABAD@JABADA@@DAF@B@B@BA@@BABABA@AB@BA@FDBBBB@B@B@BABCDA@@JADFD@A@@B@@@BBAB@@BBB@@@B@BB@@D@B@B@@D@DAF@BAB@BBBB@BABB@BB@AB@BAAAB@@@DABBB@H@FAHADBJAF@DABADB@`JLDHBLDF@LBLBH@HBHDNDJFDDFDFFHBDBLBV@D@HBLHJBF@NBFBHCACBAA@DMDIBADB@@@BBBDBDBBBDBB@B@B@B@BBB@B@BBB@@BB@B@@A@@D@@@BA@@BA@A@@B@@AC@@@BA@AAABABB@@B@B@B@@AB@@ADA@@BAB@@BBAB@@AD@@B@@B@@@@AB@D@BCB@@BB@BBD@AAB@BA@@@BB@@A@@B@@@B@BC@@@ABADABBB@@D@B@B@@AB@BB@BA@@B@B@@B@@@BD@B@D@DBBA@B@@ND"
+        ],
+        "encodeOffsets": [
+          [
+            124489,
+            31743
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

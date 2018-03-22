@@ -1,0 +1,32 @@
+[
+  {
+    "count": 4,
+    "fromAreaCode": "650000",
+    "toAreaCode": "320000"
+  },
+  {
+    "count": 1,
+    "fromAreaCode": "370000",
+    "toAreaCode": "320000"
+  },
+  {
+    "count": 7,
+    "fromAreaCode": "340000",
+    "toAreaCode": "320000"
+  },
+  {
+    "count": 3,
+    "fromAreaCode": "530000",
+    "toAreaCode": "320000"
+  },
+  {
+    "count": 1,
+    "fromAreaCode": "420000",
+    "toAreaCode": "320000"
+  },
+  {
+    "count": 9,
+    "fromAreaCode": "350000",
+    "toAreaCode": "320000"
+  }
+]

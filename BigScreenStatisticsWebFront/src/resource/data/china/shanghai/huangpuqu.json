@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "310101",
+      "properties": {
+        "name": "黄浦区",
+        "cp": [
+          121.484317,
+          31.222771
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@@@B@@@@AB@@@@@@@@@B@@@@@@@B@@@@@@@@@@@@@@@@H@F@B@B@B@@@B@@@@@@@@@@@@@@@@@@B@B@@B@@@A@@B@@@@@B@FAD@B@B@@@@@BA@AB@BAHB@BAB@@@@@@@@@DAB@@AB@@BB@B@BBBBB@B@@@B@@AD@BA@@@@B@@BB@@@BBBBBBB@BBB@NCAC@A@A@A@CBA@@@@@@@@@@@@BCHEFCHI@@@@@@@@@@FIBC@CACACMUEGECAAAAE@OCMCAB@B@@A@@@ABA@A@A@@@@@@@@B@@@B@B@@@B@@AB@B@@@@@BAB@@@B@@@B@BAB@DA@@@A@@AA@A@@@A@@@@@@@@@@B@@@@@@@@@@@@@@@@@B@@@@@@@@@@@B@@AB@@@@@B@@@@@D@@@@@@@@@B@@@@@@@@AB@B@@@@@B@@AB@@@@@B@@@@@@@@@@@@@@@@@B@@A@@@@B@@@@@@@@@@@B@@A@@@@@@B"
+        ],
+        "encodeOffsets": [
+          [
+            124373,
+            31970
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

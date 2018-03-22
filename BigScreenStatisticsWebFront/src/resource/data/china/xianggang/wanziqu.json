@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810002",
+      "properties": {
+        "name": "湾仔区",
+        "cp": [
+          114.19099,
+          22.267345
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@BK@A@@@@B@@A@@BB@@@@@@B@BB@@@@@@@ABC@A@@B@@@@@@@B@@@@@@@BA@@@@@@@@B@@@@@@@@@@@DBB@@@B@B@@@BA@@BEDCBCBAB@B@B@BBBBBDBCBADECCCACACAE@AI@GA@GAIAC@A@E@A@ABCAA@CBE@MBBD@JBJAP@`REHD"
+        ],
+        "encodeOffsets": [
+          [
+            116927,
+            22822
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

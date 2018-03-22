@@ -1,0 +1,56 @@
+[
+  {
+    "goodCourseCnt": 120,
+    "goodCourseRatio": 86,
+    "totalCourseCnt": 192,
+    "teacherName": "WS教师"
+  },
+  {
+    "goodCourseCnt": 142,
+    "goodCourseRatio": 83,
+    "totalCourseCnt": 184,
+    "teacherName": "VE教师"
+  },
+  {
+    "goodCourseCnt": 150,
+    "goodCourseRatio": 75,
+    "totalCourseCnt": 152,
+    "teacherName": "WC教师"
+  },
+  {
+    "goodCourseCnt": 101,
+    "goodCourseRatio": 52,
+    "totalCourseCnt": 173,
+    "teacherName": "JJ教师"
+  },
+  {
+    "goodCourseCnt": 146,
+    "goodCourseRatio": 67,
+    "totalCourseCnt": 193,
+    "teacherName": "LC教师"
+  },
+  {
+    "goodCourseCnt": 114,
+    "goodCourseRatio": 53,
+    "totalCourseCnt": 155,
+    "teacherName": "LB教师"
+  },
+  {
+    "goodCourseCnt": 146,
+    "goodCourseRatio": 55,
+    "totalCourseCnt": 190,
+    "teacherName": "BW教师"
+  },
+  {
+    "goodCourseCnt": 136,
+    "goodCourseRatio": 62,
+    "totalCourseCnt": 189,
+    "teacherName": "XO教师"
+  },
+  {
+    "goodCourseCnt": 150,
+    "goodCourseRatio": 85,
+    "totalCourseCnt": 160,
+    "teacherName": "OY教师"
+  }
+]

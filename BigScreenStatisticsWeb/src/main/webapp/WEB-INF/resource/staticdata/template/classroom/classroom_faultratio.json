@@ -1,0 +1,18 @@
+[
+  {
+    "count": 125,
+    "faultName": "AN故障"
+  },
+  {
+    "count": 150,
+    "faultName": "SC故障"
+  },
+  {
+    "count": 132,
+    "faultName": "PI故障"
+  },
+  {
+    "count": 170,
+    "faultName": "JR故障"
+  }
+]

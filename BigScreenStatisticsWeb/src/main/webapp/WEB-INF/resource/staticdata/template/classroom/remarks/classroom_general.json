@@ -1,0 +1,11 @@
+{
+  "allCourseCnt": "累计开课总量",
+  "areaCourseCnt": "夸区域互动",
+  "cityCourseRatio": "跨市互动",
+  "countryCourseRatio": "夸国互动",
+  "prefectureCourseRatio": "夸区县互动",
+  "provinceCourseRatio": "跨省互动",
+  "studentCnt": "受益学生",
+  "unStartCourseCnt": "计划开课",
+  "realCourseRatio": "开课占比"
+}

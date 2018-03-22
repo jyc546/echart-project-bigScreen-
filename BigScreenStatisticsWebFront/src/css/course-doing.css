@@ -1,0 +1,144 @@
+
+.container-content{
+    padding:10px 20px;
+}
+.content {
+    float: left;
+    width: 100%;
+}
+.main {
+    margin-left: 600px;
+    margin-right:600px;
+}
+/*用于清除浮动*/
+  .main::after {
+      display: block;
+      content: '';
+      font-size: 0;
+      height: 0;
+      clear: both;
+      zoom: 1;
+  }
+.left {
+    float: left;
+    width: 590px;
+    margin-left: -100%;
+}
+.right {
+    width: 590px;
+    float: right;
+    margin-left: -600px;
+}
+/* 综合样式 */
+.subject-distribution,.grade-distribution, .count-course, .knowledge-distribution, .student-favorite, .teacher-rank{
+    position:relative;
+    padding:20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+/* left */
+.subject-distribution{
+    width:590px;
+    height:517px; 
+    background: url('../images/left-top3.jpg') center no-repeat;
+}
+.grade-distribution{
+    width:590px;
+    height:435px;
+    background: url('../images/left-bottom3.jpg') center no-repeat;
+}
+/* center */
+.count-course{
+    height:517px;
+    background: url('../images/center-top3.jpg') center no-repeat;
+}
+.knowledge-distribution{
+    height:435px;
+    background: url('../images/center-bottom3.jpg') center no-repeat;
+}
+/* right */
+.student-favorite{
+    width:590px;
+    height:517px;
+    background: url('../images/right-top3.jpg') center no-repeat;
+}
+.teacher-rank{
+    width:590px;
+    height:435px;
+    background: url('../images/right-bottom3.jpg') center no-repeat;
+}
+
+.com-count-title{
+    color:#1bb4f9;
+    font-size: 22px;
+    padding:0;
+}
+
+.filter-type li select:hover{
+    cursor: pointer;
+}
+.filter-type li{
+    width:150px;
+}
+.filter-type li{
+    display: inline-block;
+    margin-right: 10px;
+    border:none;
+}
+.filter-type li select {
+    width: 150px;
+    height: 40px;
+    background: #0d2343;
+    border: solid 2px #075797;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    color: #1bb4f9;
+    border-radius: 5px;
+}
+.filter-type li.active{
+    color:white;
+    background:#0c182d;
+    border:none;
+}
+.r-c-count{
+    text-align: center;
+}
+.rc-item {
+    display: inline-block;
+    margin-right: 80px;
+}
+.rc-item h5{
+    color:#16a5f0;
+    font-size: 17px;
+}
+.rc-item:last-child{
+    margin-right:0;
+}
+.re-all-data{
+    margin-top: 10px;
+}
+.re-all-data li{
+    display: inline-block;
+    width:30px;
+    text-align:center ;
+    padding:10px 0;
+    color:#fff;
+    font-family: myFirstFont;
+    font-size: 35px;
+    background:url("../images/center-data.jpg") center no-repeat;
+}
+.xName{
+    position: absolute;
+    bottom: 21px;
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    left: 78px;
+}
+.yName{
+    position: absolute;
+    top: 65px;
+    color: #6f8ab2;
+    font-size: 14px;
+    right: 18px;
+}

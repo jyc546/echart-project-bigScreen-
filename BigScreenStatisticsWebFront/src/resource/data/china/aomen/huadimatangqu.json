@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820001",
+      "properties": {
+        "name": "花地玛堂区",
+        "cp": [
+          113.564965,
+          22.201882
+        ],
+        "childNum": 2
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@LADA@ABA\\siV@@@B@@ABA@@@@@B@@@@B@B@@A@@B@@A@@@@@@@@@CD@@A@AB@@EFA@@@A@@@AA@@GAIA@BBBA@AH@D@@@@BB@@B@D@B@B@B@@@B@@@@@BBBD@@@@BB@@B@FA@@D@B@FA"
+          ],
+          [
+            "@@B@N@LC@@BAA@EMA@@A@K@AECMB@@AB@JBF@DABA@@B@D@BDD@B"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              116285,
+              22746
+            ]
+          ],
+          [
+            [
+              116303,
+              22746
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

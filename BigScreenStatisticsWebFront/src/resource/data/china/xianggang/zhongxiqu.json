@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810001",
+      "properties": {
+        "name": "中西区",
+        "cp": [
+          114.154334,
+          22.273931
+        ],
+        "childNum": 3
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            "@@D@bK@_BOAI@IAC@@A@A@EAA@ABA@@@@@AAA@CAC@C@@@A@@@A@@@@DAB@B@BEHIJCDCDCBABC@C@CAA@CA@@A@A@@@@@K@ABAF@D@B@FBDDDFBFBDBFFDDFBFBDBNB@@@@H@"
+          ],
+          [
+            "@@A@@BB@@@B@@A@@@A@@A@@B"
+          ],
+          [
+            "@@@@@@AA@@A@A@AA@@AB@@@B@BBBB@B@DA@A"
+          ]
+        ],
+        "encodeOffsets": [
+          [
+            [
+              116895,
+              22829
+            ]
+          ],
+          [
+            [
+              116861,
+              22818
+            ]
+          ],
+          [
+            [
+              116860,
+              22817
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

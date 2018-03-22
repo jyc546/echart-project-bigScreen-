@@ -1,0 +1,46 @@
+{
+  "generalCourses": [
+    {
+      "courseCnt": 133,
+      "instructMode": "blackboard"
+    },
+    {
+      "courseCnt": 118,
+      "instructMode": "interaction"
+    },
+    {
+      "courseCnt": 157,
+      "instructMode": "exercise"
+    },
+    {
+      "courseCnt": 155,
+      "instructMode": "teaching"
+    },
+    {
+      "courseCnt": 131,
+      "instructMode": "balance"
+    }
+  ],
+  "veryGoodCourses": [
+    {
+      "courseCnt": 179,
+      "instructMode": "blackboard"
+    },
+    {
+      "courseCnt": 137,
+      "instructMode": "interaction"
+    },
+    {
+      "courseCnt": 163,
+      "instructMode": "exercise"
+    },
+    {
+      "courseCnt": 143,
+      "instructMode": "teaching"
+    },
+    {
+      "courseCnt": 179,
+      "instructMode": "balance"
+    }
+  ]
+}

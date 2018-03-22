@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "110109",
+      "properties": {
+        "name": "门头沟区",
+        "cp": [
+          115.805381,
+          39.999999
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@A@@AA@AAA@C@C@CDC@A@A@@@@EECA@ABA@MASEAA@@@@CA@@@@CAA@AAI@OGGAC@A@AC@CCAC@GBICGACBABCBGDIAEAGEDCBEBMQCCBCACA@CCEG@IBGA@AIAEBABCEE@CCIAC@AB@HAH@@MBCAQIOGA@C@@B@B@FGFAB@DFLBFAJDBHDDDFLGBG@OEGEC@BC@@QABDBDC@EAGEMAEBCHEBG@_HCBEHAFBBPNLLDBJDDBAFDLCHEFI@OESAI@CBOAWFCBOAGAIEEICCOIMAEAAAIACDEBCBCAA@QVKFC@O@CHCDKDGBCAEACBMAS@CBCHA@GACACCGAOEACCAQGMEGAK@AAAAG@G@C@C@CCK@OECEAAMEAIECC@I@GCYCCCAA@AAACCG@A@GGQ@ECECCACC@CAACECACM@CCKAAGACCCEBA@AKIAECIAAAAEACEACA@SAQ@@@@@@B@@@B@@AB@@A@@@@@A@A@@@A@AB@@A@@@ABA@@@AB@@@@A@@@A@@@A@@@ABA@A@@BA@@@@@A@@B@@A@@@ABA@@@A@@@@B@B@@@BA@@@AB@@A@@@A@@@@@A@@B@@A@@@@@A@@@A@@BA@@@A@@@AB@@AB@@@@A@@@A@A@A@@@A@@AAB@@@@@B@@A@@B@@AB@@AB@@@@@@@BA@A@AB@@C@@@@@A@ABA@A@@@A@@BA@A@@AA@@@@@@B@@@@@B@@AB@@@B@@@B@@@@AB@@@B@@@@A@@@@B@@@@@@@@BBB@@@BBB@@@@@BB@@B@@B@@@B@@BB@@@@@BB@@B@BB@@B@@BB@@@B@@@BB@@@@BB@@@AB@@@@BB@B@B@@@@@B@@@BAB@@@B@@@B@@@@@BB@@@B@B@@@BB@@B@@@@@B@@B@@BB@B@B@@@B@@@B@@@B@A@@A@@@A@@@A@@@AB@@A@@@AB@@A@ABA@@B@@A@@@A@A@@B@@A@@@A@A@@@@@A@A@@@ABA@@@@@@@@BA@@B@@@@@B@@@@BB@@@B@@@B@@BB@@B@@@B@@BB@@DBB@@@@B@@@@@BB@@B@@BBB@@@BB@@B@@DB@@BB@@@@AB@@@@@B@@A@@B@@AB@@A@@@AB@@@@AB@@AB@@A@@BA@@@AB@@@@A@@B@@@@A@@BA@@@@@@@A@@B@@A@@B@@@B@@@@AB@@@@A@@@@B@@@@@@A@@@@@@@@@@@@@@B@@A@@@@@@@@@@@A@@@@@@@@@A@@@A@@@@@@@@@@@@@AB@@@@@@@@@@@@@@@B@@@@@@A@@@@@@@@@@@A@@@@BCAC@@BA@@B@BA@ABA@A@@BAB@@A@AB@@@@@B@B@BABABABCF@BAB@B@@A@EBC@@B@@A@@@@@CB@@C@A@@@ABA@A@ABAAAB@@ABCB@@C@ABA@ADC@@BAB@@GBC@@@ABADA@A@A@ABC@A@@@@@CC@@C@A@A@A@@@A@@AA@A@A@@@AB@@@D@@ABABABBB@@@D@@BB@@@B@@@B@BBDBB@@ABABA@@@@B@@AB@B@@BB@B@BB@@B@B@@BB@B@B@@@B@@@@B@@BBDBB@BA@BBDBBDBB@@@@B@BB@BD@@BB@DBBB@@B@DBB@B@BA@@@AB@BBBAB@@BAB@BAD@B@B@@@BA@BB@@@B@@A@@BCD@@ABA@@@A@@B@B@BAB@@@BB@B@@BBDB@@DB@BBBBDDBBB@@D@@BB@BB@@D@B@B@@@BB@BBB@B@@@B@@@@@BB@@BBDAF@D@@@NFFB@@BB@B@BB@@@FBB@BBDBBDBB@B@BBBBBD@BBFDBBB@@@B@B@BD@B@@B@BBB@@@BA@@@B@@@B@@BBB@@B@@B@@B@BB@@BB@@B@@@B@@AB@@@BF@FB@@BBBDB@FBBBDDB@BBBBBBD@@@F@B@B@BBD@H@@@@ABA@@B@B@@@DDB@FBB@BB@@@DB@B@BB@@@DBBAB@DA@@DABB@@@BBB@BFB@B@@@B@BBDDB@@@F@@@@@@AB@@A@@BBD@BB@@BB@@BBBBB@B@@A@@@A@@BABA@AD@BAF@@@D@DBD@@@BB@@@B@BBB@@AD@B@BBDBBA@@B@@@D@@B@@AB@@@@B@B@@@D@B@@@B@BBBBBFDB@F@D@B@B@B@D@B@BAB@B@BA@@DA@@DBBBD@@@D@@A@@BA@@B@B@B@D@@@BBB@@@D@DA@AB@D@@@D@B@B@BBB@@@@BABAD@@@BB@@BB@@B@@BB@B@@ABB@BBBBB@DBFBDB@@B@DC@@@A@@@@D@D@DBH@HBFAHDDBB@@@B@D@@@B@DCBBB@@@@@BBB@B@B@@@BCBA@@@A@@@@BA@@B@@A@@D@BB@@FBD@@@B@@AD@@@@@B@B@@A@@F@@B@@@@@BA@@BAACBA@A@A@A@ABA@ABA@AB@@B@H@DBDBB@B@B@FAD@@@BADAFABABAB@DBB@BBDAD@B@B@BBB@BBB@BBB@B@@@@B@@BBD@BBBBBB@@B@BB@@DDBD@@BBBD@@@B@@@B@@@B@BCBA@AB@@@BAB@@@@BD@BDDBB@B@B@BBD@@B@DBBAHA@@BBDBD@BBBB@B@BBDBDB@@B@BBB@@@BB@B@DBDBB@BAB@B@D@BBB@@B@E@C@C@CFCB@@AHEDCDABC@@DA@@@@@@@ABA@@B@FGB@@@D@F@D@B@B@@@D@B@B@B@B@B@DCDAB@@@B@@@FCFCB@@ABB@@@BABAB@B@@@@D@DAB@FAHAB@B@BBB@B@B@BB@@B@B@@@@AB@@@@@@ABB@@@@@@@@B@@@@@@@@@B@@@@@B@@@@@@@B@@@@@@@@BB@@@@@@@@@B@@@B@@@@@@@B@@@B@@A@@B@@@@A@@@@@@B@@@@@@@@@B@@A@@B@@@@AB@@@@@@@@AD@BA@@@@@@@BB@@@@@@@@@BA@@@@BAB@@@B@@@BA@@@AB@@@@@@@@@@@@@@AB@@@B@@@@@@@B@@@@@B@@@@@@@@@B@@@@@@@@@B@@@@@@@B@@@@@@@B@@@B@@@B@@@@@@@@@B@@@B@@@@@@@B@@@@@@@B@@@BA@@@BB@B@@@B@@@@A@@@@B@@@@@@@@@B@@B@@B@@A@@@@@@B@@@@@@@@AB@@@@A@@@@@@B@@@@@@@@@B@@@@@@@@BB@@@@@@@@B@@B@@@@@@@@@@@@@@@B@@@B@@@@@@@B@@@@@BAB@@@B@@@@@@@@@@@BB@@@@@@@@@@@@BA@@@@@@@@BA@@@AB@@@@@@@@@B@@@@@@@B@@@B@@@@@@A@@@@B@@@@@@@@@@@@@B@@@B@@@BA@@@@@AB@@@@@@@B@@A@@@@@@@@B@@@@@BA@@@@@@@@@@@A@@@@B@@@@A@@@@@@@@@@B@@@@@BA@@@@@@@@@A@@@@B@@@@@@AB@@@B@@@@@@@@A@@B@@@@@@@@@BA@@@@@@@@@A@@@@B@@A@@@@@@@@@AB@@@BA@@@@@@BA@@@@@@@@@@@AB@@@@@@@@@@@@A@@@@B@@@@@@A@@@@B@@@@@@@B@@@@A@@@@@@@AB@@@@@@A@@@@@@@@@@@A@@B@@@@@@@@@@@@@BA@@@@@@B@@A@@@@@A@@@@@@@@@@@@BA@A@@@@@@A@@@@@@A@@@@A@@@@@@@@@A@@A@@@@@A@@@@@@A@@@@A@@A@B@@@@@@@BA@@@@B@@@@@B@@@@@B@@@@@@@B@@@B@@@@A@@B@@@@@@@B@@@B@@@@A@@@@@@A@BA@@B@@AB@@@@@@@@A@@@@@@@@@@B@@@@@@AB@@@@@@@@@@@@@@@@B@@@@@@@B@@@@@@@B@@@@@@B@@B@@@@@@@B@@@@B@@@@@@@B@@@@@B@@@B@@@@@BB@@@@@@@@@@B@@@@@@A@@@@@@@A@@@@@@@AA@@@@A@@@@@A@@@@@A@@@@@@@@@A@@@@@@@@@A@@@@A@@@@@AA@@@@@A@@@@@AB@@@@@@A@@@@@@@@B@@A@@@@@@@@@A@@@@@@B@@@BA@@@@@@@@@A@@B@@@@A@@@@@@@@@@@@B@@A@@@@@@@@@AB@@A@@@@@A@@@@A@@@@A@@@@B@@@@@@@@A@@@@@@@A@@@@@A@@@@@AB@@A@@@@@@@@B@@@@@@@B@@@@@@@BB@@@@@@B@@@BB@@B@@@@@@B@@B@@@@@B@@@@@B@@@@@@@@B@@@@@B@@B@@@@@@@@@@@B@@@@@@@@@@@BB@@@@@@@@@@@@B@@@@@BB@@@@B@@@B@@@@@B@@@@@@@BB@@@@@@@@@@B@B@@@@@@@B@@@B@@@@@@@@@BA@@@@B@@@@@B@@@B@@@@@@@@@@@@@@@B@@@@@@@@@BB@@@@@@@@B@@@@A@@@@B@@@@@@@@@@@@@@@B@@@@@@AB@@@@@@@@@B@@@@@BA@@@@B@@@@@@@@@B@@@@@@@@@B@@A@@B@@@@@@@@@@@B@@@@BB@@@BAB@B@@A@@B@B@BAB@@@B@B@@A@@@A@@B@B@B@DA@@@BFB@B@@B@BBB@@BB@BB@@DB@B@@BABA@@BA@@BBBB@BB@@@@B@@BB@@D@B@B@BAB@@@BBB@B@@@@@@B@@@@B@@@@@@@B@B@@@@A@@B@@@B@@@BA@A@@@@@@@ABA@@BA@ABABA@@@@B@@@@@BA@@@ABBB@@@BA@@BA@@@@@@@@B@BABA@A@@BA@@A@@C@AB@@AB@BA@AB@@ABAB@B@@A@A@AAA@AAA@AAA@@AAB@AA@@BABA@@@C@@BC@AB@@ABA@AB@@A@@B@@A@A@@@A@@@A@AB@@ABAB@@A@A@@B@@@D@B@B@@@BA@@@AB@@@DBB@B@D@B@B@@@F@@BDBB@F@@@B@FA@@BA@@@@@@B@B@BBB@@@B@@@D@B@B@D@B@@AB@B@@@DA@@@AB@B@B@BBB@@@B@D@B@@@B@@@@@B@@@B@@@@@B@@@@@@@B@@@@@@A@@B@@@@@@@B@@@@@B@@@BA@@@@@@B@@@@AB@@@@AB@@@@@@@B@@@@@B@@A@AB@@@@@@AB@@@BAB@@@@@BA@@@@@@@@@@B@@@@BB@@@@@B@@@@@@@BA@@@@B@@@@@@@B@@@@@@A@@B@@@@@@@@@@@@@B@@@@@B@@@@@@@@A@@B@@@@A@@@@B@@@B@@@@@BA@@@@B@@AB@@@@@@@@@@AB@@@@@@A@@@@@@@@@@@A@@@@B@@AB@@@@@@@@@@@@A@B@@@@B@@@@@@A@@@@@@@@BA@@@@@@B@@@@@@@B@@@@A@@@@@@@@BA@@@@@@@@@A@@BB@@@@@@B@@A@@@@@A@@@@B@BA@@@@@@@@@@@@@@@A@@A@@@@@@@@A@@A@@@B@AA@@@@@@@@@A@@A@@@@A@@@@@AUAKCA@AA@@@A@AA@@AA@ECCAA@@AA@@AEB@@A@@@KCWAIAIGBKDGFABA@ADA@ACK@A@BC@ACCB@@@A@@@A@AFC@A@@AADCBAAAA@@@A@@@@@CAA@A@@AAC@AACHI@AB@@A@@DABCHBBBBCDC@A@C@CBADAF@DAB@FA@@@ADABEDGFGHCB@BA@A@CBEBABAHABADCDEDE@@@@B@@@"
+        ],
+        "encodeOffsets": [
+          [
+            118956,
+            40847
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

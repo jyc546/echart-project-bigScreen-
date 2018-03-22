@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820007",
+      "properties": {
+        "name": "路凼填海区",
+        "cp": [
+          113.56925,
+          22.139946
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@IKACA@AAA@A@C@@@AAA@AAAAA@A@@@E@A@@@@@@G@@@@@@@@A@C@@@@@@@@@@@A@@A@@@@@@UCBV@B@@@H@DCFIFH@F@D@@@@@@@B@DA@@@@@@B@@@@@B@@@@@@@@@B@@@@@BB@@@@B@@@@B@@@B@@@@@@DB@@@@BA@@@@@@@@@A@@B@@@@@BA@@@@@@@A@@@@@@@@@@@@@@@@@@@@@@B@BB@@B@@@@@@@@@AB@@@@B@@BD@@B@@@@@@B@@A@@B@@A\\K"
+        ],
+        "encodeOffsets": [
+          [
+            116316,
+            22676
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

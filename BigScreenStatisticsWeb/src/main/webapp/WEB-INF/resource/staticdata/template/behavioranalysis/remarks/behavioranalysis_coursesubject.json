@@ -1,0 +1,27 @@
+[
+  {
+    "courses": [
+      {
+        "courseCnt": 154,
+        "instructMode": "blackboard"
+      },
+      {
+        "courseCnt": 169,
+        "instructMode": "interaction"
+      },
+      {
+        "courseCnt": 194,
+        "instructMode": "exercise"
+      },
+      {
+        "courseCnt": 150,
+        "instructMode": "teaching"
+      },
+      {
+        "courseCnt": 165,
+        "instructMode": "balance"
+      }
+    ],
+    "subjectName": "学科名称"
+  }
+]

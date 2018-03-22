@@ -1,0 +1,68 @@
+[
+  {
+    "acvitityCnt": 169,
+    "lessonCnt": 101,
+    "areaCode": "020202",
+    "areaName": "吉林省"
+  },
+  {
+    "acvitityCnt": 198,
+    "lessonCnt": 104,
+    "areaCode": "110000",
+    "areaName": "北京市"
+  },
+  {
+    "acvitityCnt": 158,
+    "lessonCnt": 117,
+    "areaCode": "120000",
+    "areaName": "天津市"
+  },
+  {
+    "acvitityCnt": 150,
+    "lessonCnt": 124,
+    "areaCode": "130000",
+    "areaName": "河北省"
+  },
+  {
+    "acvitityCnt": 104,
+    "lessonCnt": 128,
+    "areaCode": "140000",
+    "areaName": "山西省"
+  },
+  {
+    "acvitityCnt": 158,
+    "lessonCnt": 156,
+    "areaCode": "320000",
+    "areaName": "江苏"
+  },
+  {
+    "acvitityCnt": 138,
+    "lessonCnt": 134,
+    "areaCode": "330000",
+    "areaName": "浙江省"
+  },
+  {
+    "acvitityCnt": 130,
+    "lessonCnt": 133,
+    "areaCode": "340000",
+    "areaName": "安徽省"
+  },
+  {
+    "acvitityCnt": 150,
+    "lessonCnt": 103,
+    "areaCode": "350000",
+    "areaName": "福建省"
+  },
+  {
+    "acvitityCnt": 165,
+    "lessonCnt": 130,
+    "areaCode": "360000",
+    "areaName": "江西省"
+  },
+  {
+    "acvitityCnt": 116,
+    "lessonCnt": 191,
+    "areaCode": "370000",
+    "areaName": "山东省"
+  }
+]

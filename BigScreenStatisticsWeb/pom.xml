@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>ECSP-BigScreenStatisticsWeb</artifactId>
+        <groupId>com.codyy</groupId>
+        <version>5.4.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>BigScreenStatisticsWeb</artifactId>
+    <packaging>war</packaging>
+    <name>BigScreenStatisticsWeb</name>
+    <build>
+        <finalName>BigScreenStatisticsWeb</finalName>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <outputDirectory>src/main/webapp/WEB-INF/classes</outputDirectory>
+        <directory>publish/${project.version}</directory>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>package</id>
+                        <phase>process-resources</phase>
+                        <configuration>
+                            <target>
+                                <echo message="******************** copy bigScreenFrontResource files *************************" />
+                                <copy todir="${project.build.directory}/${project.build.finalName}/front/src/">
+                                    <fileset dir="${basedir}/../BigScreenStatisticsWebFront/src" />
+                                </copy>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.codyy</groupId>
+            <artifactId>oc.commons</artifactId>
+            <version>6.0.1.20</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.codyy</groupId>
+            <artifactId>oc.commons.rpc</artifactId>
+            <version>6.0.1.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.2</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+    </dependencies>
+</project>

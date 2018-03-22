@@ -1,0 +1,420 @@
+.container-content{
+    padding:10px 20px;
+    box-sizing: border-box;
+}
+.content {
+    float: left;
+    width: 100%;
+}
+.main {
+    margin-left: 540px;
+    margin-right: 520px;
+}
+/*用于清除浮动*/
+.main::after {
+    display: block;
+    content: '';
+    font-size: 0;
+    height: 0;
+    clear: both;
+    zoom: 1;
+}
+.left {
+    float: left;
+    width: 530px;
+    margin-left: -100%;
+}
+.right {
+    width: 510px;
+    float: right;
+    margin-left: -520px;
+    overflow: hidden;
+}
+/* 综合样式 */
+.interact-status,.acting-school, .acting-teacher, .admin-teach-data-count, .course-status, .Teach-research-distribution{
+    position:relative;
+    padding:20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+/* left */
+.interact-status{
+    width:530px;
+    height:292px;
+    background:url('../images/lefttop1.png') center no-repeat;
+}
+.com-screen-content.flex-center {
+    margin-top: 20px;
+}
+.acting-school{
+    width:530px;
+    height:312px;
+    background:url('../images/leftcenter1.png') center no-repeat;
+}
+.acting-teacher{
+    width:530px;
+    height:347px;
+    background:url('../images/leftbottom1.png') center no-repeat;
+}
+/* center */
+.admin-teach-data-count{
+    height:614px;
+    background:url('../images/center-top1.gif') center no-repeat;
+}
+.teach-count-pic{
+    position:relative;
+    padding:20px 20px 8px 7px;
+    height:347px;
+    margin-top: 10px;
+    background:url('../images/center-bottom1.png') center no-repeat;
+}
+/* right */
+.course-status{
+    width:510px;
+    height:242px;
+    background:url('../images/right-top1.png') center no-repeat;
+}
+.Teach-research-distribution{
+    width:510px;
+    height:721px;
+    background:url('../images/right-bottom1.png') center no-repeat;
+}
+
+.com-count-title{
+    color:#1bb4f9;
+    font-size: 22px;
+    padding: 0;
+}
+.com-screen-content .content-item{
+    float:left;
+    width:140px;
+    height:80px;
+    margin:10px 10px;
+    text-align: center;
+}
+.content-item span{
+    display: block;
+    width:140px;
+    height:50px;
+    color:white;
+    font-family: myFirstFont;
+    font-size: 36px;
+    line-height: 50px;
+    background: url("../images/four-cornor.jpg") center no-repeat;
+}
+.content-item p{
+    font-family: myFirstFont;
+    font-size: 14px;
+    padding:10px;
+    color:#1bb9f9;
+}
+.course-table {
+    width: 100%;
+    padding-bottom: 27px;
+}
+table {
+    background-color: transparent;
+}
+.course-table thead td {
+    font-size: 16px;
+    color:#1bb9f9;
+}
+.course-table thead tr {
+    padding: 10px 5px;
+    vertical-align: middle;
+}
+.course-table tbody tr:nth-of-type(odd) {
+    background: #111f44;
+    line-height: 32px;
+}
+.course-table tbody tr:nth-of-type(even) {
+    line-height: 46px;
+}
+.course-table tr {
+    border-radius: 10px;
+    display: block;
+}
+.course-table tbody tr td:first-child {
+    color:#1bb9f9;
+    /*border-radius:20%;*/
+    font-size: 20px;
+}
+.course-table td {
+    text-indent: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 98px;
+    color:#fff;
+}
+.status_title {
+    width: 120px;
+    font-family: myFirstFont;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    background: url('../images/icon01.png') center no-repeat;
+    color:white;
+    margin-top:40px;
+    position: relative;
+}
+.course ul{
+    margin-top: -71px;
+    margin-left: 120px;
+}
+.course ul li{
+    text-align: center;
+    height: 51px;
+}
+
+.data-count span{
+    width: 124px;
+    display: table-cell;
+    height: 50px;
+    font-family: myFirstFont;
+    font-size: 36px;
+    color:#fff;
+}
+.status{
+    border-top:solid 1px #083761;
+}
+.status span{
+    width: 124px;
+    display: table-cell;
+    line-height: 30px;
+    font-family: myFirstFont;
+    font-size: 16px;
+    color: #7e9bc6;
+}
+#teach_research3{
+    top:-322px;
+}
+.bottom-content{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width:100%;
+    height:70px;
+    padding:0 210px;
+    text-align: center;
+}
+.bottom-content .fl,.bottom-content .fr{
+    padding: 10px;
+}
+.bottom-content p{
+    font-family: myFirstFont;
+    font-size: 18px;
+    color:#fff;
+}
+.bottom-content span{
+    font-family: myFirstFont;
+    font-size: 8px;
+    color:#1bb9f9;
+}
+
+.pa{
+    position: absolute;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#parent{
+    position: absolute;
+    left: 23px;
+    top: 15px;
+    width: 120px;
+    height: 40px;
+    border:none;
+    z-index:1000;
+    overflow: hidden;
+}
+
+#parent select{
+    width:95px;
+    height:40px;
+    background: #0d2343;
+    font-size: 22px;
+    text-align: center;
+    color: #1bb4f9;
+    border: none;
+    outline: none;
+    padding:7px;
+    border-radius: 5px;
+}
+.lessonCnts {
+    margin-top:5px;
+    display: block;
+}
+div[class^="bubble"] span{
+    color:white;
+    display: block;
+    font-family: myFirstFont;
+    font-size: 21px;
+    height: 20px;
+}
+div[class^="bubble"] p{
+    font-size: 12px;
+}
+.bubble01{
+    width:200px;
+    height:146px;
+    text-align:center;
+    top: 70%;
+    left: 10%;
+}
+.bubble01 div{
+    width:146px;
+    height:146px;
+    padding:28px;
+    color:#8994ff;
+    border-radius:146px;
+    background: #253a8f;
+}
+.bubble02{
+    width:120px;
+    height:120px;
+    text-align:center;
+    top: 16%;
+    left: 80%;
+}
+.bubble02 div{
+    width: 120px;
+    height: 120px;
+    padding:17px;
+    color:#bfa8f2;
+    border-radius:110px;
+    background: #1f236a;
+}
+.bubble03{
+    width:110px;
+    height:110px;
+    text-align:center;
+    top: 50%;
+    left: 82%;
+}
+.bubble03 div{
+    width:110px;
+    height:110px;
+    padding:12px;
+    color:#ffdeb1;
+    border-radius:110px;
+    background: #343133;
+}
+.bubble04{
+    width:240px;
+    height:104px;
+    text-align:center;
+    left: 2%;
+    top: 38%;
+}
+.bubble04 div{
+    width:104px;
+    height:104px;
+    padding:8px;
+    color:#b481ff;
+    border-radius:110px;
+    background: #2c1754;
+}
+.bubble05{
+    width:96px;
+    height:96px;
+    text-align:center;
+    top: 76%;
+    left: 62%;
+}
+.bubble05 div{
+    width:96px;
+    height:96px;
+    padding:4px;
+    color:#ff9e9f;
+    border-radius:110px;
+    background: #31213b;
+}
+.bubble06{
+    width:150px;
+    height:100px;
+    text-align:center;
+    top: 22%;
+    left: 13%;
+}
+.bubble06 div{
+    width:92px;
+    height:92px;
+    padding:4px;
+    color:#ede8b2;
+    border-radius:110px;
+    background: #233446;
+}
+.admin-point{
+    position: absolute;
+    color:red;
+    font-family: myFirstFont;
+    font-size: 16px!important;
+}
+.bubble01 .admin-point{
+    left: 126px;
+    top: -46px;
+    color:#8994ff;
+}
+.bubble02 .admin-point{
+    left: -74px;
+    top: 104px;
+    color:#9161ff;
+}
+.bubble03 .admin-point{
+    left: -64px;
+    top: 10px;
+    color:#ff9600;
+}
+.bubble04 .admin-point{
+    left: 146px;
+    top: 62px;
+    color:#c231ff;
+}
+.bubble05 .admin-point{
+    left: -38px;
+    top: -56px;
+    color:#f0585a;
+}
+.bubble06 .admin-point{
+    left: 80px;
+    top: 74px;
+    color:#fff044;
+}
+.clearfix{
+    clear:both;
+}
+.actingxName{
+    position: absolute;
+    bottom: 9px;
+    color: #90979c;
+    font-size: 12px;
+    right: 25px;
+}
+.xName {
+    position: absolute;
+    top: 70px;
+    color: #90979c;
+    font-size: 12px;
+    left: 10px;
+}
+.yName {
+    position: absolute;
+    top: 70px;
+    color: #90979c;
+    font-size: 12px;
+    right: 28px;
+}
+.course-status .com-screen-content{
+    animation: width 1s;
+    -moz-animation: width 1s;	/* Firefox */
+    -webkit-animation: width 1s;	/* Safari 和 Chrome */
+    -o-animation: width 1s;
+    animation-timing-function:linear;
+}
+@keyframes width
+{
+    from {width: 300px;}
+    to {width: 350px;}
+}

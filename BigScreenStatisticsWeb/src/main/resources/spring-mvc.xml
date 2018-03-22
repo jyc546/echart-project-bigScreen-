@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop classpath:/org/springframework/aop/config/spring-aop-4.0.xsd
+						http://www.springframework.org/schema/mvc classpath:/org/springframework/web/servlet/config/spring-mvc-4.0.xsd
+						http://www.springframework.org/schema/beans classpath:/org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+						http://www.springframework.org/schema/util classpath:/org/springframework/beans/factory/xml/spring-util-4.0.xsd
+						http://www.springframework.org/schema/context classpath:/org/springframework/context/config/spring-context-4.0.xsd">
+    <!-- 自动扫描的包名 -->
+    <context:component-scan base-package="com.codyy.oc" use-default-filters="false">
+        <context:include-filter type="regex" expression="com.codyy.oc.statistic.*.controller.*"/>
+    </context:component-scan>
+
+    <!-- 启用默认配置 -->
+    <mvc:annotation-driven>
+        <mvc:message-converters register-defaults="true">
+            <!-- 配置Fastjson支持 -->
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes" value="application/json"/>
+                <property name="features">
+                    <list>
+                        <value>WriteMapNullValue</value>
+                        <value>QuoteFieldNames</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <!--<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
+        <!--<property name="prefix" value="/"/>-->
+        <!--<property name="suffix" value=".html"/>-->
+        <!--<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>-->
+    <!--</bean>-->
+
+    <!-- 静态资源路由 -->
+    <mvc:resources mapping="/**" location="/front/src/"/>
+
+    <!-- 强制使用cglib动态代理植入增强 -->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <!-- SpringMVC异常处理器 -->
+    <bean id="exceptionResolver" class="com.codyy.oc.commons.spring.CommonExceptionResolver">
+        <property name="defaultErrorMessage" value="系统错误"></property>
+        <property name="exceptionMessageMap">
+            <map>
+                <entry key="java.lang.NumberFormatException" value="类型必须为数字"/>
+                <entry key="com.alibaba.dubbo.rpc.RpcException" value="服务调用失败"/>
+                <entry key="org.springframework.web.multipart.MaxUploadSizeExceededException" value="上传文件超限"/>
+            </map>
+        </property>
+        <property name="uriSuffixesOfDataRequest">
+            <set>
+                <value>.do</value>
+            </set>
+        </property>
+        <property name="uriSuffixesOfPageRequest">
+            <set>
+                <value>.html</value>
+            </set>
+        </property>
+        <property name="defaultAsDataRequest" value="false"/>
+    </bean>
+
+    <!-- 拦截器： performanceLogInterceptor  -->
+    <bean id="performanceLogInterceptor" class="com.codyy.oc.commons.spring.PerformanceLogInterceptor"/>
+
+    <!-- 拦截器： userActivityLogInterceptor  -->
+    <bean id="userActivityLogInterceptor" class="com.codyy.oc.commons.spring.UserActivityLogInterceptor">
+        <property name="includeUserCookie" value="false"/>
+        <property name="includeSessionAttribute" value="true"/>
+        <property name="excludeKeys">
+            <util:set set-class="java.util.HashSet">
+                <value type="java.lang.String">menus</value>
+                <value type="java.lang.String">appMenu</value>
+                <value type="java.lang.String">homePageMenu</value>
+                <value type="java.lang.String">resSecondCategory</value>
+                <value type="java.lang.String">areaIdPath</value>
+                <value type="java.lang.String">permissions</value>
+            </util:set>
+        </property>
+        <property name="userKeys">
+            <util:set>
+                <value type="java.lang.String">sessionUser</value>
+                <value type="java.lang.String">SessionUser</value>
+                <value type="java.lang.String">SESSION_USER</value>
+            </util:set>
+        </property>
+    </bean>
+
+    <!-- 拦截器： webContextFinalizeInterceptor  -->
+    <bean id="webContextFinalizeInterceptor" class="com.codyy.oc.commons.spring.WebContextFinalizeInterceptor"/>
+
+    <!-- 使用mvc interceptors进行请求拦截 -->
+    <mvc:interceptors>
+
+        <!-- 使用bean定义一个Interceptor，直接定义在mvc:interceptors根下面的Interceptor将拦截所有的请求 -->
+        <!--<bean class="com.codyy.oc.commons.spring.PerformanceLogInterceptor"/>-->
+        <!--<bean class="com.codyy.oc.commons.spring.WebContextFinalizeInterceptor"/>-->
+
+        <!-- 定义在mvc:interceptor下面的表示是对特定的请求才进行拦截的 -->
+        <mvc:interceptor>
+            <mvc:mapping path="/**/*.do"/>
+            <mvc:mapping path="/**/*.html"/>
+            <mvc:mapping path="/*.do"/>
+            <mvc:mapping path="/*.html"/>
+            <mvc:exclude-mapping path="/public/**"/>
+            <ref bean="performanceLogInterceptor"/>
+        </mvc:interceptor>
+
+        <mvc:interceptor>
+            <mvc:mapping path="/**/*.do"/>
+            <mvc:mapping path="/**/*.html"/>
+            <mvc:mapping path="/*.do"/>
+            <mvc:mapping path="/*.html"/>
+            <mvc:exclude-mapping path="/public/**"/>
+            <ref bean="userActivityLogInterceptor"/>
+        </mvc:interceptor>
+
+        <mvc:interceptor>
+            <mvc:mapping path="/**/*.do"/>
+            <mvc:mapping path="/**/*.html"/>
+            <mvc:mapping path="/*.do"/>
+            <mvc:mapping path="/*.html"/>
+            <mvc:exclude-mapping path="/public/**"/>
+            <ref bean="webContextFinalizeInterceptor"/>
+        </mvc:interceptor>
+
+    </mvc:interceptors>
+</beans>

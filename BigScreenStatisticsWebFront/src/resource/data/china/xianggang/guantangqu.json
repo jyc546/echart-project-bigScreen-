@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810009",
+      "properties": {
+        "name": "观塘区",
+        "cp": [
+          114.230083,
+          22.312079
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@B@B@@@B@@@@@HU@@@AB@@@B@@@B@@@BAB@@@@@@@BD@@@@@@@@@@@C@A@A@AB@@@B@DB@@@@@@B@@AA@@ACE@A@@@@AA@AA@@A@C@@B@FEBCDC@@@@@@BC@A@@@A@@C@AA@@AACKAA@A@AB@@ADAB@@A@A@AqXCRSTDFIJA@ABA@AB@@@B@B@@BBDFAN@@@@@@@@@@@@B@BA@@@@@@@@B@@AB@@BD@@@B@@@B@@@B@@A@@@@@@@@B@@A@@B@@@FBB@B@B@D@D@B@BBB@"
+        ],
+        "encodeOffsets": [
+          [
+            116974,
+            22868
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

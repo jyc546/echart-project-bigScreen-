@@ -1,0 +1,14 @@
+[
+  {
+    "finishedCnt": 106,
+    "processingCnt": 110,
+    "unStartedCnt": 135,
+    "lessonType": "PREPARE"
+  },
+  {
+    "finishedCnt": 189,
+    "processingCnt": 107,
+    "unStartedCnt": 108,
+    "lessonType": "EVALUATION"
+  }
+]

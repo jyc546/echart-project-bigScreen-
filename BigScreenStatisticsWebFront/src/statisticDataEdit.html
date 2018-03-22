@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>大屏统计数据</title>
+    <script src="js/jquery/jquery-1.10.2.js"></script>
+    <link href="js/jsoneditor/jsoneditor.css" rel="stylesheet" type="text/css">
+    <script src="js/jsoneditor/jsoneditor.js"></script>
+    <script src="js/util/filereader.js"></script>
+    <script src="js/rootPath.js"></script>
+
+    <style type="text/css">
+        body {
+            font: 10.5pt arial;
+            color: #4d4d4d;
+            line-height: 150%;
+            width: 1200px;
+        }
+
+        code {
+            background-color: #f5f5f5;
+        }
+
+        #jsoneditor {
+            width: 500px;
+            height: 500px;
+        }
+
+        #jsoneditorreadonly {
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<p>
+    行政区域：<span id="areaContainer"></span>
+</p>
+<p>
+    业务板块：<span id="blockContainer"></span>
+</p>
+<p>
+    <button id="loadFromServer">Load From Server</button>
+    <input id="loadFromFile" type="file"/>
+    <button id="savedata">Save Data</button>
+</p>
+<table>
+    <tr>
+        <td>
+            <div id="jsoneditorreadonly"></div>
+        </td>
+        <td>
+            <div id="jsoneditor"></div>
+        </td>
+    </tr>
+</table>
+
+
+<script type="text/javascript">
+    var areaData;//行政区域数据
+    var statisticBlockData;//统计模块数据
+    $(document).ready(function () {
+        //load area data
+        $.get('resource/data/area.json', function (data) {
+            areaData = data;
+            createAreaSelect(areaData["top"])
+        });
+
+        // load statistic block data
+        $.get('resource/data/statisticBlock.json', function (data) {
+            statisticBlockData = data;
+            createBlockSelect(statisticBlockData["top"])
+        });
+
+        $('#areaContainer').delegate('.areaSelect', 'change', function () {
+            // 移除当前select后面所有的select
+            $(this).nextAll('.areaSelect').remove();
+            var areaCode = $(this).val();
+            var subAreaData = areaData[areaCode];
+
+            //创建子级行政区select
+            if (subAreaData != null) {
+                createAreaSelect(subAreaData)
+            }
+            resetJsonEdit();
+        });
+        $('#blockContainer').delegate('.blockSelect', 'change', function () {
+            // 移除当前select后面所有的select
+            $(this).nextAll('.blockSelect').remove();
+            var code = $(this).val();
+            var subData = statisticBlockData[code];
+
+            //创建子业务模块select
+            if (subData != null) {
+                createBlockSelect(subData)
+            }
+            resetJsonEdit();
+        });
+
+        $('#loadFromServer').click(function () {
+            var param = getParam();
+            if (!validateParam(param)) {
+                return false;
+            }
+            $.get(BACK_ROOT + '/bigscreen/loadremarksdata.do', param, function (json) {
+                if (json.status == 1) {
+                    readOnlyEditor.set(json.result);
+                    readOnlyEditor.expandAll();
+                } else {
+                    WinAlert(json.message);
+                }
+            });
+            $.get(BACK_ROOT + '/bigscreen/loaddata.do', param, function (result) {
+                if (result.status == 1) {
+                    editor.set(result.result);
+                    editor.expandAll();
+                } else {
+                    WinAlert(result.message);
+                }
+            });
+        });
+
+        $('#savedata').click(function () {
+            var param = getParam();
+            if (!validateParam(param)) {
+                return false;
+            }
+            param.data = JSON.stringify(editor.get());
+            $.post(BACK_ROOT + '/bigscreen/savedata.do', param, function (result) {
+                if (result.status == 1) {
+                    WinAlert("操作成功！");
+                } else {
+                    WinAlert(result.message);
+                }
+            });
+        });
+    });
+    //==============================area select==============================
+    //创建行政区select
+    function createAreaSelect(data) {
+        var html = '<select class="areaSelect">';
+        html += '<option value="-1">请选择</option>';
+        $.each(data, function (i, d) {
+            html += '<option value="' + d.areaCode + '">' + d.areaName + '</option>';
+        });
+        html += '</select>';
+        $('#areaContainer').append(html)
+    }
+
+    function getSelectedAreaCode() {
+        var areaCode = '-1';
+        $('.areaSelect').sort(function (o1, o2) {
+            var index1 = $(o1).parent('#areaContainer').find('.areaSelect').index($(o1));
+            var index2 = $(o2).parent('#areaContainer').find('.areaSelect').index($(o2));
+            return index2 - index1;
+        }).each(function () {
+            areaCode = $(this).val();
+            if (areaCode != '-1') {
+                // true:跳出当前循环(break), false:跳出所有循环(continue)
+                return false;
+            }
+        });
+        return areaCode;
+    }
+    //==============================statistic block select==============================
+    function createBlockSelect(data) {
+        var html = '<select class="blockSelect">';
+        html += '<option value="-1">请选择</option>';
+        $.each(data, function (i, d) {
+            html += '<option value="' + d.code + '">' + d.name + '</option>'
+        });
+        html += '</select>';
+        $('#blockContainer').append(html)
+    }
+    //==============================json rich edit==============================
+    var editor, readOnlyEditor;
+    editor = new JSONEditor(document.getElementById('jsoneditor'), {
+        mode: 'form',
+        modes: ['code', 'form', 'text', 'view', 'tree'], // allowed modes
+        onError: function (err) {
+            WinAlert(err.toString());
+        }
+    });
+    readOnlyEditor = new JSONEditor(document.getElementById('jsoneditorreadonly'), {
+        mode: 'view',
+        modes: ['code', 'view'], // allowed modes
+        onError: function (err) {
+            WinAlert(err.toString());
+        }, onEditable: function (node) {
+            if (!node.path) {
+                // In modes code and text, node is empty: no path, field, or value
+                // returning false makes the text area read-only
+                return false;
+            }
+        }
+    });
+
+    //==============================Load Json Data From File==============================
+    FileReaderJS.setupInput(document.getElementById('loadFromFile'), {
+        readAsDefault: 'Text',
+        on: {
+            load: function (event) {
+                editor.setText(event.target.result);
+            }
+        }
+    });
+
+
+    //==============================util==============================
+    function getParam() {
+        var selectedAreaCode = getSelectedAreaCode();
+
+        var bigScreen;
+        var block;
+        var blockSelects = $('#blockContainer').find('.blockSelect');
+        if (blockSelects.length != 2) {
+            return {areaCode: selectedAreaCode};
+        }
+
+        bigScreen = blockSelects[0].value;
+        block = blockSelects[1].value;
+        return {bigScreen: bigScreen, block: block, areaCode: selectedAreaCode};
+    }
+    function validateParam(param) {
+        var selectedAreaCode = param.areaCode;
+        if (selectedAreaCode == null || selectedAreaCode == '-1') {
+            WinAlert('请选择行政区域！');
+            return false;
+        }
+
+        var bigScreen = param.bigScreen;
+        var block = param.block;
+        if (bigScreen == null || bigScreen == '-1') {
+            WinAlert('请选择业务板块！');
+            return false;
+        }
+        if (block == null || block == '-1') {
+            WinAlert('请选择业务板块！');
+            return false;
+        }
+        return true;
+    }
+
+    function WinAlert(msg) {
+        alert(msg);
+    }
+
+    function resetJsonEdit() {
+        editor.set({});
+        readOnlyEditor.set({});
+    }
+</script>
+</body>
+</html>

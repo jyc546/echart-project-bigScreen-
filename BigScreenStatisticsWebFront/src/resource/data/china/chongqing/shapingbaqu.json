@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "500106",
+      "properties": {
+        "name": "沙坪坝区",
+        "cp": [
+          106.3542,
+          29.641224
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@BADADCBCDADADCBA@CBA@CAC@AACACACCACCAAA@CAECCCAACCAC@CACBA@EDA@ADADAD@DADABC@AAE@AAC@@@AAC@CAAAA@CAAAAAACCAAAC@AAABC@ADABAFAB@FADAFEBABCDCBADCBCBADEDADCBABCDCBADAB@BAD@DBBA@A@AA@@@GAKAC@@A@@BAA@C@@ABA@A@@@@BABGBC@@A@@@@@@@AAC@A@@BA@@@@@@@@@@@@BA@@@@@@@@B@@@@@@@@@@@B@D@BA@@BA@@A@A@A@AACBABCAA@@A@A@A@A@@@@@C@A@@@@@@@CAA@ECCAA@BABA@A@A@@@@@@@A@@@@@@AAA@@@@@@@@@@@@@A@A@A@@A@AACEIAE@@@@AAAAAAAA@ABABC@@AAA@@@@A@E@AAAABA@@@ACAE@A@@CAEB@@@@C@A@@BA@@D@@@BA@C@C@A@AAA@@A@A@A@AA@A@G@EAA@A@E@E@A@A@@@AD@B@@@@@D@D@D@BB@B@B@B@@@@B@BBBAB@@@@@@A@A@@BBB@@B@@BB@@B@DBF@R@DBP@F@DBD@@A@A@EBE@@@A@ACAACBABADAD@D@D@@ABAB@@AAAAAE@ABC@@B@@A@A@A@A@AAAABCB@BAB@@A@AAC@AAAC@AC@@@C@CBAB@@@@@@@@A@@B@@@@@@@B@@@@@@@@@B@@@@@@@@@B@@B@@@@@B@@@@@@@@B@@@@@@@@AB@@@@@BB@@B@@@@@@@@@BB@A@@B@@@@@@A@@@@@@B@@@@A@A@C@BACA@@A@@B@@@@@B@B@BAB@@C@C@ABCBABA@CBADCDCBA@@A@@@AB@ACA@@@ABAD@@A@AAEAECA@@AB@B@A@@AC@A@AA@CACCAAAACA@@@E@CB@@@C@A@@A@@BADABA@A@AAAAA@C@AAA@CBCBA@@AA@@A@A@@@ACA@@AB@B@@AA@@C@CCCAAAA@@@AB@BAD@BA@@@AA@AA@@@A@@A@@BAAEAG@A@@A@A@C@CB@@@@CBA@@@@@@A@A@@CA@@C@EBC@A@AC@@AAA@@@C@CAEA@AA@CDAF@B@BABC@A@@AB@@A@@AAA@@BAB@B@@A@@@A@CJ@D@B@F@F@J@PBFBLBD@BB@@@DAB@DB@@@@ADABCD@@@DBHDH@D@HBBDJBHDJDDBBDBBBBA@@DB@@BBBDBJBDBBFDBB@B@B@@A@@BC@A@GDABAB@@DFBBBDB@BBFAB@B@DAB@B@B@B@@BBB@BABABABGBA@A@ABA@@DABBF@F@BBD@@BBB@B@@@B@@BBD@@BDBD@B@BABABAB@@@D@D@B@DAB@@A@AA@@C@@@AB@F@L@L@@AB@@@B@BB@BBB@@FAF@BBD@@BABA@CBADAB@B@@@BB@BAB@B@DBBBBB@@@BA@AD@B@B@BDBBBJBJFRDLBF@DBBB@B@@@BB@@BBB@BBBAF@D@@@BA@@AC@AAAB@@AFA@AFADAB@B@B@@@BD@B@B@@BB@@D@H@H@B@J@J@F@B@BB@B@@AB@@BBB@DALAB@B@BBBB@B@D@FAB@BA@@@@B@@@BB@@@@@@@DADADAB@@@@BBBB@@@FCB@B@@@BB@D@@@@DAFADADA@A@CAC@ABAB@@@B@@D@@@B@@BBB@FBB@F@LED@@@B@BBBDBBB@BB@@@DABB@B@@B@BBB@BB@B@FCDABABBDBB@DBD@FABA@@@@@@BABAD@BABA@@@CAQ@E@AAAAACEAC@GACCEACCQ@CCSCOAE@ABA@A@EBKBK@@AACCCCBAD@B@BAB@B@D@B@DAB@BAB@@@B@@@D@@@BABA@AB@D@BBB@@D@J@FBBBDBBDBDBBBB@@@"
+        ],
+        "encodeOffsets": [
+          [
+            109013,
+            30381
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

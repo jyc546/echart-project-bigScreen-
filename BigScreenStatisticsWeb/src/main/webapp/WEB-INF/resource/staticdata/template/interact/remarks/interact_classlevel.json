@@ -1,0 +1,14 @@
+{
+  "prepares": [
+    {
+      "lessonCnt": "教案数量",
+      "classLevelName": "年级名称"
+    }
+  ],
+  "evaluations": [
+    {
+      "lessonCnt": "教案数量",
+      "classLevelName": "年级名称"
+    }
+  ]
+}

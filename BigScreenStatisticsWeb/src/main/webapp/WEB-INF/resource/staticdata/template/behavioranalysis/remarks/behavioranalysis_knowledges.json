@@ -1,0 +1,9 @@
+[{
+	"subjects": [{
+		"knowledges": [{
+			"knowledgeName": "知识点名称"
+		}],
+		"subjectName": "学科名称"
+	}],
+	"classlevelName": "年级名称"
+}]

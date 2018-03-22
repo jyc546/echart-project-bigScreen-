@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810005",
+      "properties": {
+        "name": "油尖旺区",
+        "cp": [
+          114.170347,
+          22.304632
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@@AA@@A@C@A@@@A@A@ABCBCBADCBCDCBABAB@@@@@DCB@@A@@@@B@@ABCFOUEGCQFaLC@@dARD@BBB@@@@@BBDD@@@@@@@@DC@@@@@@B@@@@@@@@@@@@@@B@@B@B@@@B@B@BB@@@@D@D@@@B@@@D@F@B@@@@@@@"
+        ],
+        "encodeOffsets": [
+          [
+            116920,
+            22860
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>课堂监管</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/course-view.css">
+</head>
+<body>
+    <div class="container-header">
+        <ul class="nowTime">
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="location">
+            <i class="icon iconfont icon-buoumaotubiao23"></i>
+            <span class="areaName">中国</span>
+            <div class="selectDom">
+                <div class="zProvinceItem" item-level="1">
+                    <div class="zprovinceItem-head">
+                        <input type="text" id="provinceInputValue" class="currentValue" readonly="" value="请选择" placeholder="请选择">
+                    </div>
+                    <div class="zprovinceItem-main">
+                        <div class="provinceContainer">
+                            <div class="provinceTips">全部</div>
+                            <ul class="provincelist">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="zcityItem" item-level="2">
+                    <div class="zcityItem-head">
+                        <input type="text" class="currentValue" readonly="" value="请选择" placeholder="请选择">
+                    </div>
+                    <div class="zcityItem-main">
+                        <div class="cityContainer">
+                            <div class="cityTips">全部</div>
+                            <ul class="citylist">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>课堂监管大数据</h3>
+    </div>
+    <div class="container-content">
+        <div class="content">
+                <div class="main">
+                        <div class="map-course">
+                            <ul class="r-c-count">
+                                <li class="rc-item">
+                                    <h5>累计开课总量</h5>
+                                    <ul class="re-all-data allCourseCnt">
+
+                                    </ul>
+                                </li>
+                                <li class="rc-item">
+                                    <h5>计划开课</h5>
+                                    <ul class="re-all-data unStartCourseCnt">
+
+                                    </ul>
+                                </li>
+                                <li class="rc-item">
+                                    <h5>开课占比</h5>
+                                    <ul class="re-all-data realCourseRatio">
+
+                                    </ul>
+                                </li>
+                                <li class="rc-item">
+                                    <h5>受益学生</h5>
+                                    <ul class="re-all-data studentCnt">
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="com-screen-content">
+                                    <div id="main6" style="width:100%;height:520px;top:-40px"></div>
+                                <ul class="bottom-data-count">
+
+                                </ul>
+                            </div>
+                                <span class="left-top"></span>
+                                <span class="right-top"></span>
+                                <span class="left-bottom"></span>
+                                <span class="right-bottom"></span>
+                        </div>
+                        <div class="course-analysis">
+                                <div id="parent">
+                                    <select>
+                                        <option value="2">2016-2017</option>
+                                        <option value="3">2015-2016</option>
+                                        <option value="4">2014-2015</option>
+                                        <option value="5">2013-2014</option>
+                                    </select>
+                                </div>
+                                <div class="com-screen-content">
+                                    <span class="yLName">开课量</span>
+                                    <span class="yRName">周</span>
+                                        <div id="main7" style="width:100%;height:300px;"></div>
+                                </div>
+                                <span class="left-top"></span>
+                                <span class="right-top"></span>
+                                <span class="left-bottom"></span>
+                                <span class="right-bottom"></span>
+                        </div>
+                </div>
+            </div>
+        <div class="left">
+                <div class="class-build">
+                    <div class="com-count-title">教室建设</div>
+                    <div class="com-screen-content">
+                        <div class="class-build-left">
+                            <div id="main1" style="width:100%;height:290px;"></div>
+                        </div>
+                        <div class="class-build-right">
+                            <div id="main2" style="width:100%;height:290px;"></div>
+                        </div>
+                        <ul class="echart-title">
+                            <li>互动教室数</li>
+                            <li>常态化授课比</li>
+                        </ul>
+                    </div>
+                    <span class="left-top"></span>
+                    <span class="right-top"></span>
+                    <span class="left-bottom"></span>
+                    <span class="right-bottom"></span>
+                </div>
+                <div class="living-status">
+                        <div class="com-count-title">实时动态</div>
+                        <div class="com-screen-content">
+                            <ul class="status-data">
+                            </ul>
+                            <ul class="status-name">
+                                <li>正在直播</li>
+                                <li>今日已开课时</li>
+                                <li>今日计划课时</li>
+                                <li>当前观摩人数</li>
+                            </ul>
+                            <div class="living-status-left ">
+                                <div id="main3" style="width:100%;height:185px;"></div>
+                            </div>
+                            <div class="living-status-right">
+                                <div id="main4" style="width:100%;height:185px;"></div>
+                            </div>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                </div>
+                <div class="sg-distribution">
+                        <ul class="filter-type">
+                            <li class="active" data-type="subject">学科分布</li>
+                            <li data-type="grade">年级分布</li>
+                        </ul>
+                        <div class="com-screen-content">
+                                <div id="main5" style="width:100%;height:250px;"></div>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                </div>
+            </div>
+        <div class="right">
+                <div class="teaching-analysis">
+                        <div class="com-count-title">授课分析</div>
+                        <div class="com-screen-content">
+                            <div class="class-build-left">
+                                <div id="main8" style="width:100%;height:290px;"></div>
+                            </div>
+                            <div class="class-build-right">
+                                <div id="main9" style="width:100%;height:290px;"></div>
+                            </div>
+                            <ul class="echart-text">
+                                <li><span>网络故障总数</span></li>
+                                <li><span>开课情况总数</span></li>
+                            </ul>
+                            <ul class="echart-title">
+                                <li>故障分类</li>
+                                <li>开课情况</li>
+                            </ul>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                        
+                </div>
+                <div class="this-week">
+                        <div class="com-count-title">本周情况</div>
+                        <div class="com-screen-content">
+                            <div class="course this-week-status">
+                                <div class="status_title">
+                                    <span></span>
+                                    <p>开课比</p>
+                                </div>
+                                <ul class="">
+                                    <li class="data-count">
+
+                                    </li>
+                                    <li class="status">
+                                        <span>实际开课</span>
+                                        <span>计划开课</span>
+                                        <span>有效课时</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="course use-rate">
+                                <div class="status_title">
+                                    <span></span>
+                                    <p>使用率</p>
+                                </div>
+                                <ul class="use-rate">
+                                    <li class="data-count">
+                                    </li>
+                                    <li class="status">
+                                        <span>主讲教室</span>
+                                        <span>接收教室</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                </div>
+                <div class="grand">
+                        <ul class="filter-type">
+                            <li class="active" data-type="admin">行政区排行</li>
+                            <li data-type="classLevel">教师排行</li>
+                        </ul>
+                        <div class="com-screen-content">
+                            <span class="grandYlName">计划开课</span>
+                                <div id="main10" style="width:100%;height:368px;"></div>
+                        </div>
+                        <span class="left-top"></span>
+                        <span class="right-top"></span>
+                        <span class="left-bottom"></span>
+                        <span class="right-bottom"></span>
+                </div>
+            </div>
+    <div class="clearfix"></div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/areaMap.js"></script>
+    <script src="js/rootPath.js"></script>
+    <script src="js/course-view.js"></script>
+</body>
+</html>

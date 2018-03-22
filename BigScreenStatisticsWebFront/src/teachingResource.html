@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>教学资源</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/teaching.css">
+</head>
+<body>
+<div class="container-header">
+    <ul class="nowTime">
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="location">
+        <i class="icon iconfont icon-buoumaotubiao23"></i>
+        <span class="areaName" data-area-id="-1" data-name="china">中国</span>
+        <div class="selectDom">
+            <div class="zProvinceItem" item-level="1">
+                <div class="zprovinceItem-head">
+                    <input type="text" id="provinceInputValue" class="currentValue" readonly="" value="请选择" placeholder="请选择">
+                </div>
+                <div class="zprovinceItem-main">
+                    <div class="provinceContainer">
+                        <div class="provinceTips">全部</div>
+                        <ul class="provincelist">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="zcityItem" item-level="2">
+                <div class="zcityItem-head">
+                    <input type="text" class="currentValue" readonly="" value="请选择" placeholder="请选择">
+                </div>
+                <div class="zcityItem-main">
+                    <div class="cityContainer">
+                        <div class="cityTips">全部</div>
+                        <ul class="citylist">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>教学资源大数据</h3>
+</div>
+<div class="container-content">
+    <div class="content">
+        <div class="main">
+            <div class="left-top-content border">
+                <div class="resource-using fl">
+                    <div class="com-count-title">资源使用情况</div>
+                    <div class="com-screen-content">
+                        <ul class="use-data">
+                        </ul>
+                        <div id="main1" style="width:100%;height:280px;"></div>
+                        <div class="canvas-pic-two">
+                            <ul class="data-label">
+                                <li class="active" data-type="1">浏览量</li>
+                                <li data-type="2">下载量</li>
+                                <li data-type="3">收藏量</li>
+                                <li data-type="4">评论量</li>
+                            </ul>
+                            <ul class="utilization-rate">
+                                <li>
+                                    <p class="teacher-rate"></p>
+                                    <span>教师使用率</span>
+                                </li>
+                                <li>
+                                    <p class="student-rate"></p>
+                                    <span>学生使用率</span>
+                                </li>
+                            </ul>
+                            <div class="active-data-label">浏览量</div>
+                            <div id="main2" style="width:100%;height:240px;"></div>
+                        </div>
+                    </div>
+
+                    <span class="left-top"></span>
+                    <span class="right-top"></span>
+                    <span class="left-bottom"></span>
+                    <span class="right-bottom"></span>
+                </div>
+                <div class="resource-right fr">
+                    <!--<img src="images/teaching-resouce.gif" alt="">-->
+                    <div class="com-count-title">资源总量
+                        <ul class="re-all-data one">
+
+                        </ul>
+                    </div>
+                    <div class="com-count-title" style="padding: 0 20px">当前活跃用户数
+                        <ul class="re-all-data two">
+
+                        </ul>
+                    </div>
+                    <div class="re-top-right">
+                        <ul class="six-border">
+                            <span class="data-type">资源</span>
+                            <span class="data-type-two">人均</span>
+                        </ul>
+                    </div>
+                    <div class="com-screen-content">
+                        <div id="main3" style="width:100%;height:540px;"></div>
+                        <div class="inner-pie">
+                            <table>
+                            </table>
+                        </div>
+                    </div>
+                    <span class="left-top"></span>
+                    <span class="right-top"></span>
+                    <span class="left-bottom"></span>
+                    <span class="right-bottom"></span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="resource-count-pic border">
+                <div class="com-screen-content">
+                    <span class="ylName">浏览量</span>
+                    <span class="yrName">数量</span>
+                    <div id="main4" style="width:100%;height:306px;"></div>
+                </div>
+
+                <span class="left-top"></span>
+                <span class="right-top"></span>
+                <span class="left-bottom"></span>
+                <span class="right-bottom"></span>
+            </div>
+        </div>
+    </div>
+    <div class="left border">
+
+    </div>
+    <div class="right border">
+        <div class="resource-origin border">
+                <ul class="filter-type">
+                    <li class="active" data-type="1">年级分布</li>
+                    <li data-type="2">资源来源</li>
+                </ul>
+            <div class="com-screen-content">
+                <div id="main5" style="width:100%;height:500px;"></div>
+            </div>
+
+            <span class="left-top"></span>
+            <span class="right-top"></span>
+            <span class="left-bottom"></span>
+            <span class="right-bottom"></span>
+        </div>
+        <div class="school-rank border">
+            <div class="com-count-title">学校排行</div>
+            <div class="com-screen-content">
+                <span class="rYName">-资源量-</span>
+                <div id="main6" style="width:100%;height:400px;"></div>
+            </div>
+
+            <span class="left-top"></span>
+            <span class="right-top"></span>
+            <span class="left-bottom"></span>
+            <span class="right-bottom"></span>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/rootPath.js"></script>
+<script src="js/teaching.js"></script>
+</body>
+</html>

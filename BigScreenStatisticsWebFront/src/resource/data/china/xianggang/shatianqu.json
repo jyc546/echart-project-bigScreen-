@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "810016",
+      "properties": {
+        "name": "沙田区",
+        "cp": [
+          114.210126,
+          22.385715
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@HCDCD@DAF@DBF@D@D@DBDBBB@B@B@DBBB@FBD@F@BAD@BABBBGAE@A@A@ACE@A@@@@DE@@@A@IAI@C@A@A@ABADEBA@A@AAEB@@A@ABABA@@@AAC@A@C@@BA@C@A@@@A@@@@QC@@AA@@@A@A@A@AACAAGEGECACAC@CAA@C@@@A@@CAAB@@A@A@@@@@@A@C@C@AA@@@@A@A@E@CAE@@@@@@@A@A@CBA@@@CC@@A@@@CBA@@BA@AA@@@@@@BA@A@@@A@@A@SCEAEAA@A@@@C@@@A@CC@@A@A@A@C@C@A@CAC@I@C@C@GAAAA@@A@BA@CB@BAB@BAB@H@D@B@BDD@BBB@@@DCD@D@D@D@B@BBDB@@B@@ADB@HBB@DBBBLH@BB@@BBD@B@B@@B@LBB@@@B@@BAF@H@DBDAB@DAF@B@D@BBDHB@@@@BB@@@@DB@@@B@@@@NBH@@@@@@B@@B@RBD@B@@BBB@B@@@@BFBBBBBBDDHD"
+        ],
+        "encodeOffsets": [
+          [
+            116956,
+            22970
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

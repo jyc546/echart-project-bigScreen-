@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "820006",
+      "properties": {
+        "name": "嘉模堂区",
+        "cp": [
+          113.570783,
+          22.158124
+        ],
+        "childNum": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          "@@JB@@@@@@`HvPNWRqYL[L@BA@@@@BA@@@@@@@@AC@@AA@@@@@BA@@@@@@@@A@@@AAA@@@@@@@@@@@@@@@@@@@@@@@@B@@@@@@AB@@@@A@@@@B@@@@@@@@AB@@@@CA@@@@@@@A@@@A@@A@@@@@AA@@@@A@@@@@@@@@A@@@@@A@@@@@@@CBA@@@@@@@C@E@G@@BILEL"
+        ],
+        "encodeOffsets": [
+          [
+            116265,
+            22694
+          ]
+        ]
+      }
+    }
+  ],
+  "UTF8Encoding": true
+}

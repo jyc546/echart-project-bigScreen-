@@ -1,0 +1,252 @@
+{
+  "top": [
+    {
+      "name": "互动教研",
+      "code": "interact"
+    },
+    {
+      "name": "教学资源",
+      "code": "resource"
+    },
+    {
+      "name": "课堂监管",
+      "code": "classroom"
+    },
+    {
+      "name": "课堂行为",
+      "code": "behavioranalysis"
+    }
+  ],
+  "interact": [
+    {
+      "name": "互动教研整体情况",
+      "code": "general"
+    },
+    {
+      "name": "活跃学校",
+      "code": "activeschool"
+    },
+    {
+      "name": "活跃教师",
+      "code": "activeteacher"
+    },
+    {
+      "name": "行政区域数据统计",
+      "code": "subarea"
+    },
+    {
+      "name": "教研统计趋势图-集体备课",
+      "code": "prepareyear"
+    },
+    {
+      "name": "教研统计趋势图-教案上传量",
+      "code": "lessonyear"
+    },
+    {
+      "name": "教研统计趋势图-评课议课",
+      "code": "evaluationyear"
+    },
+    {
+      "name": "教研统计趋势图-教案下载",
+      "code": "downloadyear"
+    },
+    {
+      "name": "互动教研开设情况",
+      "code": "status"
+    },
+    {
+      "name": "教研分布-年级-教案数量",
+      "code": "lessonclasslevel"
+    },
+    {
+      "name": "教研分布-年级-评课议课集体备课",
+      "code": "classlevel"
+    },
+    {
+      "name": "教研分布-学科-教案数量",
+      "code": "lessonsubject"
+    },
+    {
+      "name": "教研分布-学科-评课议课集体备课",
+      "code": "subject"
+    }
+  ],
+  "resource": [
+    {
+      "name": "资源使用情况",
+      "code": "recent"
+    },
+    {
+      "name": "资源使用情况-曲线图-上传量",
+      "code": "uploadcnt"
+    },
+    {
+      "name": "资源使用情况-曲线图-下载量",
+      "code": "downloadcnt"
+    },
+    {
+      "name": "资源使用情况-曲线图-录制量",
+      "code": "dailyrescnt"
+    },
+    {
+      "name": "资源使用情况-曲线图-收藏量",
+      "code": "collectioncnt"
+    },
+    {
+      "name": "资源使用情况-曲线图-浏览量",
+      "code": "viewcnt"
+    },
+    {
+      "name": "资源使用情况-比例图-下载量",
+      "code": "downloadratio"
+    },
+    {
+      "name": "资源使用情况-比例图-收藏量",
+      "code": "collectionratio"
+    },
+    {
+      "name": "资源使用情况-比例图-浏览量",
+      "code": "viewratio"
+    },
+    {
+      "name": "资源使用情况-比例图-评论量",
+      "code": "commentratio"
+    },
+    {
+      "name": "地区资源统计图-上传量",
+      "code": "subareaupload"
+    },
+    {
+      "name": "地区资源统计图-下载量",
+      "code": "subareadownload"
+    },
+    {
+      "name": "地区资源统计图-录制量",
+      "code": "subareadaily"
+    },
+    {
+      "name": "地区资源统计图-收藏量",
+      "code": "subareacollection"
+    },
+    {
+      "name": "地区资源统计图-浏览量",
+      "code": "subareaview"
+    },
+    {
+      "name": "资源总览",
+      "code": "general"
+    },
+    {
+      "name": "资源总览-比例",
+      "code": "resourceratio"
+    },
+    {
+      "name": "资源总览-学科",
+      "code": "subject"
+    },
+    {
+      "name": "学校排行",
+      "code": "school"
+    },
+    {
+      "name": "年级分布",
+      "code": "classlevel"
+    },
+    {
+      "name": "资源来源",
+      "code": "source"
+    }
+  ],
+  "classroom": [
+    {
+      "name": "教室建设-互动教室数",
+      "code": "classroomtype"
+    },
+    {
+      "name": "教室建设-常态化录播授课比",
+      "code": "dailycourseratio"
+    },
+    {
+      "name": "实时动态-教室状态",
+      "code": "realtimeroom"
+    },
+    {
+      "name": "实时动态-课程状态",
+      "code": "realtimecourse"
+    },
+    {
+      "name": "学科分布",
+      "code": "subject"
+    },
+    {
+      "name": "年级分布",
+      "code": "classlevel"
+    },
+    {
+      "name": "课程总览",
+      "code": "general"
+    },
+    {
+      "name": "课程总览-跨区域数据",
+      "code": "courseline"
+    },
+    {
+      "name": "互动课堂开课分析-实际开课",
+      "code": "realcourse"
+    },
+    {
+      "name": "互动课堂开课分析-计划开课",
+      "code": "plancourse"
+    },
+    {
+      "name": "授课分析-授课情况",
+      "code": "validcourse"
+    },
+    {
+      "name": "授课分析-故障",
+      "code": "faultratio"
+    },
+    {
+      "name": "本周情况",
+      "code": "week"
+    },
+    {
+      "name": "行政区排行",
+      "code": "subarea"
+    },
+    {
+      "name": "教师排行",
+      "code": "teacher"
+    }
+  ],
+  "behavioranalysis": [
+    {
+      "name": "学科分布",
+      "code": "coursesubject"
+    },
+    {
+      "name": "年级分布",
+      "code": "courseclasslevel"
+    },
+    {
+      "name": "课程总览-课程数量",
+      "code": "coursecnt"
+    },
+    {
+      "name": "课程总览",
+      "code": "allcourse"
+    },
+    {
+      "name": "学生偏好",
+      "code": "courserating"
+    },
+    {
+      "name": "教师排行榜",
+      "code": "courseteacher"
+    },
+    {
+      "name": "知识点",
+      "code": "knowledges"
+    }
+  ]
+}

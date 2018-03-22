@@ -1,0 +1,268 @@
+.container-content{
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.content {
+    float: left;
+    width: 100%;
+}
+.main {
+    margin-left: 0;
+    margin-right: 575px;
+}
+/*用于清除浮动*/
+.main::after {
+    display: block;
+    content: '';
+    font-size: 0;
+    height: 0;
+    clear: both;
+    zoom: 1;
+}
+.left {
+    float: left;
+    width: 0;
+    margin-left: -100%;
+}
+.right {
+    width: 565px;
+    float: right;
+    margin-left: -575px;
+    overflow: hidden;
+}
+
+.border{
+    /*border: solid 1px red;*/
+}
+/* 综合样式 */
+.resource-count-pic,.resource-origin,.resource-right,.school-rank,.resource-using{
+    position:relative;
+    box-sizing: border-box;
+}
+.left-top-content{
+    /*width:1297px;*/
+    margin-top: 10px;
+    height:650px;
+}
+.resource-using{
+    width:45.3%;
+    height:650px;
+    background: url('../images/left-top2.jpg') center no-repeat;
+}
+.resource-right{
+    position: relative;
+    width:54%;
+    height:650px;
+    background:url('../images/teaching-resource.gif') 0 0 no-repeat;
+}
+.resource-count-pic{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height:316px;
+    background: url('../images/left-bottom2.jpg') center no-repeat;
+}
+.resource-origin{
+    background: url('../images/right-top2.jpg') center no-repeat;
+    margin-top: 10px;
+    width: 560px;
+    height:506px;
+}
+.school-rank{
+    margin-top: 10px;
+    background: url('../images/right-bottom2.png') center no-repeat;
+    height:460px;
+    width:560px;
+}
+.use-data{
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 14px;
+    height: 55px;
+    background: url(../images/resource-use-data.jpg) center no-repeat;
+    border: solid 1px #093552;
+    border-right: 0px;
+    border-left: 0;
+}
+.use-data li{
+    width:110px;
+    font-size: 0;
+    display: inline-table;
+    border-right:solid 1px #1f4191;
+}
+.use-data li:last-child{
+    border-right:0;
+}
+.use-data .data-count{
+    color:#fff;
+    font-family:myFirstFont ;
+    height: 39px;
+    font-size: 35px;
+}
+.use-data .data-name{
+    color:#1bb9f9;
+    font-size: 12px;
+}
+.canvas-pic-two{
+    position: relative;
+}
+.canvas-pic-two .data-label{
+    position: absolute;
+    left:20px;
+    top:15px;
+    z-index: 100;
+}
+.canvas-pic-two .utilization-rate{
+    position: absolute;
+    right:20px;
+    top:16px;
+    z-index: 100;
+}
+.canvas-pic-two .utilization-rate li{
+    width:120px;
+    padding:10px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: url("../images/teach-cornor.png") center no-repeat;
+}
+.utilization-rate p{
+    font-size: 36px;
+    font-family: myFirstFont;
+    color:#fff;
+}
+.utilization-rate span{
+    font-size: 16px;
+    color:#1aafed;
+}
+.canvas-pic-two .data-label li{
+    width: 120px;
+    padding-bottom: 25px;
+     text-align: center;
+    font-size: 18px;
+    color: #828c9d;
+}
+.canvas-pic-two .data-label li:hover, .canvas-pic-two .data-label li.active{
+    color: #fff;
+    background: url("../images/choose-item.png") center no-repeat;
+}
+.filter-type{
+    font-size: 0;
+    text-align: center;
+}
+
+.data-label li:hover{
+    cursor:pointer;
+}
+.active-data-label{
+    position: absolute;
+    color:#fff;
+    margin: auto;
+    font-size:18px;
+    left:46%;
+    transform:translateX(-50%);
+    bottom:50px;
+    z-index: 2;
+}
+.re-all-data{
+    margin-top: 10px;
+}
+.re-all-data li{
+    display: inline-block;
+    width:30px;
+    text-align:center ;
+    height: 50px;
+    line-height: 50px;
+    color:#fff;
+    font-family: myFirstFont;
+    font-size: 34px;
+    background:url("../images/center-data.jpg") center no-repeat;
+}
+.re-top-right{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.six-border{
+    position: relative;
+    padding:50px;
+}
+.six-border .data-type{
+    position: absolute;
+    top: 10px;
+    left: 48px;
+    color:#16aefa;
+}
+.six-border .data-type-two{
+    position: absolute;
+    bottom: 12px;
+    left: 48px;
+    color:#16aefa;
+}
+.six-border li{
+    position: relative;
+    width: 80px;
+    height:90px;
+    padding: 35px 0;
+    text-align: center;
+    font-size: 16px;
+    color:#fff;
+    display: inline-block;
+    background: url("../images/six-border.jpg") center no-repeat;
+    margin-left:50px;
+    box-sizing: border-box;
+}
+.six-border .top{
+    position: absolute;
+    top:-40px;
+    left:0;
+    width:80px;
+    text-align: center;
+}
+.six-border .bottom{
+    position: absolute;
+    bottom:-40px;
+    left:0;
+    width:80px;
+    text-align: center;
+}
+body{
+    min-width: 1900px;
+}
+.inner-pie{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-34%,20%);
+    width: 100px;
+    height: 130px;
+}
+.inner-pie table{
+    width: 100%;
+    height: 100%;
+    color:#b8c35b;
+}
+.ylName {
+    position: absolute;
+    top: 65px;
+    color: #90979c;
+    font-size: 12px;
+    left: 8px;
+}
+.yrName {
+    position: absolute;
+    top: 65px;
+    color: #90979c;
+    font-size: 12px;
+    right: 28px;
+}
+.rYName{
+    position: absolute;
+    top: 50px;
+    color: #7e9bc6;
+    font-size: 14px;
+    right: 28px;
+}
+
+.filter-type li{
+    width:177px;
+}

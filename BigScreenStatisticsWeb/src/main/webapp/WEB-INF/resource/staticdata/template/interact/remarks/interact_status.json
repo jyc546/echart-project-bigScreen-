@@ -1,0 +1,14 @@
+[
+  {
+    "finishedCnt": "已结束",
+    "processingCnt": "进行中",
+    "unStartedCnt": "未开始",
+    "lessonType": "集体备课"
+  },
+  {
+    "finishedCnt": "已结束",
+    "processingCnt": "进行中",
+    "unStartedCnt": "未开始",
+    "lessonType": "评课议课"
+  }
+]
