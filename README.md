@@ -1,2 +1,5 @@
 大屏统计 
-[![weibo-logo]](http://weibo.com/linpiaochen)
+[![互动教研]](互动教研.jpg)
+[![教学资源]](教学资源.jpg)
+[![课堂行为]](课堂行为.jpg)
+[![课堂监管]](课堂监管.jpg)
